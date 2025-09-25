@@ -1,0 +1,71 @@
+{
+  "results": {
+    "Inscarry - 适用于Instagram的下载器": {
+      "name": "Inscarry - 适用于Instagram的下载器",
+      "domain": "https://inscarry.com",
+      "error": "All URLs failed to yield valid pricing data",
+      "attempted_urls": [
+        "https://inscarry.com",
+        "https://inscarry.com/extension/index.html",
+        "https://inscarry.com/app/index.html",
+        "https://inscarry.com/wechat/index.html"
+      ],
+      "success": false
+    },
+    "My Web Shortcuts": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Regular Pack",
+          "description": "For normal users who are satisfied with simple single element shortcuts Free Forever",
+          "pricing_tiers": [
+            {
+              "type": "one_time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Unlimited Single Element Shortcuts",
+                "Smooth Element Selector with useful options",
+                "Easy Shortcuts Management",
+                "Import/Export Shortcuts"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Power Pack",
+          "description": "For Power Users who need quicker web navigation and improved browsing experience $29.99/lifetime Everything in Regular pack",
+          "pricing_tiers": [
+            {
+              "type": "one_time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 29.99,
+              "currency": "usd",
+              "features": [
+                "Everything in Regular pack",
+                "Similar & Multiple Element Selection Functionality",
+                "Unlimited Single, Multiple, and Similar Element Shortcuts",
+                "Custom Regex URLs",
+                "Action Conditionals",
+                "Added Actions - Scroll to element, cycle through elements, etc.",
+                "Live Support",
+                "More features coming soon!"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "My Web Shortcuts",
+      "domain": "https://browsergadgets.io",
+      "source_url": "https://browsergadgets.io/gadgets/mywebshortcuts",
+      "success": true,
+      "content_length": 1640
+    }
+  },
+  "processed_count": 2,
+  "total_count": 441,
+  "timestamp": 1758802577.4289992
+}
