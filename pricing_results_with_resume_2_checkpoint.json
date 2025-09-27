@@ -36525,9 +36525,134 @@
       "source_url": "https://everyday.app/pricing",
       "success": true,
       "content_length": 1470
+    },
+    "Kerika": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free Trial",
+          "description": "Get started with a free trial for your entire team, no matter how large. Includes unlimited boards, integrations with Google Workspace, Office 365, and Box, and support for 38 languages and 135 currencies.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Unlimited boards and scalability",
+                "Custom workflows and templates",
+                "Integration with Google Workspace (Drive, Docs, Slides, Sheets, Forms)",
+                "Integration with Office 365 (OneDrive, Word, Excel, PowerPoint)",
+                "Integration with Box (Box Notes)",
+                "Smart Highlights for changes",
+                "Work-in-Progress limits to avoid bottlenecks",
+                "Dashboard for project overview",
+                "Designed for remote teams with timezone adjustments",
+                "Support for 38 languages",
+                "Payments in 135 currencies",
+                "Free trial for entire team"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Kerika",
+      "domain": "https://kerika.com/",
+      "source_url": "https://gsuite.google.com/marketplace/app/kerika/18972185070?pann=gam",
+      "success": true,
+      "content_length": 13722
+    },
+    "City Architecture": {
+      "name": "City Architecture",
+      "domain": "http://themeforchrome.com/",
+      "error": "All URLs failed to yield valid pricing data",
+      "attempted_urls": [
+        "http://themeforchrome.com/"
+      ],
+      "success": false
+    },
+    "Genealogy Assistant": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Genealogy Assistant",
+          "description": "Supercharge your family history research! Genealogy Assistant adds over 100 custom features to popular genealogy websites like Ancestry, MyHeritage, FamilySearch, FamilyTreeDNA and more! Get access to all of our tools in an easy to use, one-click install. All features are automatically updated and new tools are added regularly. Enjoy a FREE 14-day trial and unlock the full version for $2.95 per month, or a one-time payment of only $29.95.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 2.95,
+              "currency": "usd",
+              "features": [
+                "Ancestry Research Tools",
+                "AncestryDNA Tools",
+                "MyHeritage Tools",
+                "FamilySearch & More"
+              ]
+            },
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": "lifetime",
+              "price": 29.95,
+              "currency": "usd",
+              "features": [
+                "Ancestry Research Tools",
+                "AncestryDNA Tools",
+                "MyHeritage Tools",
+                "FamilySearch & More"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Genealogy Blurring Tool",
+          "description": "Forget complicated editing software. Genealogy Blurring Tool is a free extension that automatically blurs sensitive details like DNA match names and names of living people on popular genealogy websites. This tool works seamlessly when navigating between pages and can be enabled/disabled with a single click. Focus on sharing your discoveries without worrying about complicated editing software.",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": "lifetime",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Automatic blurring of sensitive details",
+                "Seamless navigation",
+                "Single-click enable/disable"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AI Handwritten Text Recognition Tool",
+          "description": "Batch transcribe historical handwritten documents! Genealogy Assistant AI Handwritten Text Recognition Tool is a free cross-platform application designed to transcribe collections of historical documents into an easier-to-read format. It serves as a front-end to multiple AI APIs (OpenAI, Claude, OpenRouter, and Google Gemini), allowing you to convert image files and PDF’s into searchable, transcribed documents with or without the source image attached, as well as plain text (TXT) or CSV files. You can also create easily printable and sharable...",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": "lifetime",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Batch transcription of handwritten documents",
+                "Support for image files and PDFs",
+                "Integration with AI APIs (OpenAI, Claude, OpenRouter, Google Gemini)",
+                "Output formats: searchable documents, plain text, CSV"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Genealogy Assistant",
+      "domain": "https://genea.ca",
+      "source_url": "https://www.genea.ca/",
+      "success": true,
+      "content_length": 4460
     }
   },
-  "processed_count": 611,
+  "processed_count": 614,
   "total_count": 898,
-  "timestamp": 1758943979.6486871
+  "timestamp": 1758947385.512656
 }
