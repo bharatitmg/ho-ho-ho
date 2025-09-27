@@ -4587,9 +4587,1352 @@
       "domain": "https://shubhyadav.tech",
       "error": "No pricing pages found",
       "success": false
+    },
+    "JIRÔMETRO": {
+      "currency": "BRL",
+      "plans": [
+        {
+          "name": "Individual",
+          "description": "Plano para uso pessoal - Experimente por 30 dias grátis!",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 49.9,
+              "currency": "BRL",
+              "features": [
+                "1 JIRA user",
+                "User management not included",
+                "Unlimited boards",
+                "All metrics included",
+                "For companies: Control of JIRA users (insert, delete) under the main user as well as management of board configurations aiming at perpetuity and continuity of the business",
+                "Metrics may change without prior notice as the tool evolves"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "description": "Plano para empresas - Sob consulta",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "BRL",
+              "features": [
+                "JIRA users under consultation",
+                "User management included",
+                "Unlimited boards",
+                "All metrics included",
+                "For companies: Control of JIRA users (insert, delete) under the main user as well as management of board configurations aiming at perpetuity and continuity of the business",
+                "Metrics may change without prior notice as the tool evolves"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "JIRÔMETRO",
+      "domain": "http://jirometro.com.br/",
+      "source_url": "https://jirometro.com.br/",
+      "success": true,
+      "content_length": 2298
+    },
+    "linely": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free Plan",
+          "description": "Import your purchases from popular retailers like Walmart, Target, and Amazon to see categorized items and understand your spending habits. View purchases by category, access a unified dashboard, generate spending reports, all securely and privately in your browser.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Effortless Importing from supported vendors (Amazon, Target, Walmart)",
+                "Categorized Spending View",
+                "Unified Dashboard",
+                "Spending Reports",
+                "Secure & Private (data lives in your browser)"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "linely",
+      "domain": "https://linely.io",
+      "source_url": "https://linely.io",
+      "success": true,
+      "content_length": 2102
+    },
+    "NavNotes": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free",
+          "description": "",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Allowed projects: 1",
+                "Sites per project: 1",
+                "Item creation & descriptions",
+                "History tracking",
+                "URL mapping & management",
+                "Default item types",
+                "Item tagging",
+                "Default item statuses",
+                "Notes"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Basic",
+          "description": "",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 4.0,
+              "currency": "usd",
+              "features": [
+                "Allowed projects: 10",
+                "Sites per project: 2",
+                "Item creation & descriptions",
+                "User Management",
+                "History tracking",
+                "URL mapping & management",
+                "Default item types",
+                "Item tagging",
+                "Release management",
+                "Default item statuses",
+                "Associate related items",
+                "Associate external sites",
+                "Notes"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Standard",
+          "description": "",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 6.0,
+              "currency": "usd",
+              "features": [
+                "Allowed projects: 20",
+                "Sites per project: 4",
+                "Item creation & descriptions",
+                "User Management",
+                "History tracking",
+                "URL mapping & management",
+                "Default item types",
+                "Custom item types",
+                "Item tagging",
+                "Release management",
+                "Default item statuses",
+                "Custom item statuses",
+                "Item location pins (beta)",
+                "Associate related items",
+                "Associate external sites",
+                "Attachments",
+                "Notes"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro",
+          "description": "",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 9.0,
+              "currency": "usd",
+              "features": [
+                "Allowed projects: Unlimited",
+                "Sites per project: Unlimited",
+                "Item creation & descriptions",
+                "User Management",
+                "History tracking",
+                "URL mapping & management",
+                "Default item types",
+                "Custom item types",
+                "Item tagging",
+                "Release management",
+                "Default item statuses",
+                "Custom item statuses",
+                "Item location pins (beta)",
+                "Associate related items",
+                "Associate external sites",
+                "Attachments",
+                "Notes"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "NavNotes",
+      "domain": "https://navnotes.com",
+      "source_url": "https://navnotes.com/client/home/plans-pricing",
+      "success": true,
+      "content_length": 785
+    },
+    "Jeronimoo AI Agent for Jira": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Lifetime Deal",
+          "description": "Lifetime access for power users with no limits",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": "one-time",
+              "price": 89.0,
+              "currency": "usd",
+              "features": [
+                "Unlimited Projects",
+                "Unlimited Tickets",
+                "Premium support"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Professional",
+          "description": "For product owners",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 29.0,
+              "currency": "usd",
+              "features": [
+                "Unlimited Projects",
+                "200 tickets per month",
+                "Premium support"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 175.0,
+              "currency": "usd",
+              "features": [
+                "Unlimited Projects",
+                "200 tickets per month",
+                "Premium support",
+                "+6 free months"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Jeronimoo AI Agent for Jira",
+      "domain": "https://jeronimoo.ai",
+      "source_url": "https://jeronimoo.ai",
+      "success": true,
+      "content_length": 496
+    },
+    "Draftory AI – Email Writing Assistant for Gmail, Outlook, and iCloud": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free",
+          "description": "Perfect for getting started with Draftory.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "15 emails per month",
+                "Quality responses",
+                "Standard support"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro",
+          "description": "Most popular For professionals who need more power.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 9.0,
+              "currency": "usd",
+              "features": [
+                "Unlimited emails",
+                "High quality responses",
+                "Priority support",
+                "Custom templates"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Draftory AI – Email Writing Assistant for Gmail, Outlook, and iCloud",
+      "domain": "https://draftory.xyz",
+      "source_url": "https://draftory.xyz/pricing",
+      "success": true,
+      "content_length": 417
+    },
+    "ParasiteSEO Step-by-Step Checklist": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Yearly GPT Mastery",
+          "description": "The complete blueprint for mastering custom GPTs! Access My Step By Step Over The Shoulder Video Course Today Access To My GPTs That I Created While Recording This Video Course & More! Create Custom GPTs That Produce Human Like Content Copy & Paste Prompts 30 Days Money Back Guarantee!",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 16.95,
+              "currency": "usd",
+              "features": [
+                "Step by step blueprint for creating advanced custom GPTs",
+                "Custom GPTs for affiliate Marketers",
+                "How to use custom GPTs for Affiliate Marketing",
+                "Prompt Engineering",
+                "How to monetise your GPTs",
+                "How to prevent Prompt THEFT",
+                "Human Like Email Copywriter",
+                "Human Like Bridge Page Copywriter",
+                "SEO Title & Description Generator",
+                "WarriorPlus Product Launch Guide",
+                "CustomGPT Idea Generator GPT Idea Generator and Advisor (GIGA)",
+                "My CustomGPT Prompts"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "ParasiteSEO Step-by-Step Checklist",
+      "domain": "https://stephaniehayes.me",
+      "source_url": "https://stephaniehayes.me/gpt-mastery-blueprint/",
+      "success": true,
+      "content_length": 4362
+    },
+    "Apartments Image Downloader": {
+      "name": "Apartments Image Downloader",
+      "domain": "https://letsfaster.com",
+      "error": "All URLs failed to yield valid pricing data",
+      "attempted_urls": [
+        "https://letsfaster.com/",
+        "https://letsfaster.com"
+      ],
+      "success": false
+    },
+    "番茄瑞士刀": {
+      "currency": "cny",
+      "plans": [
+        {
+          "name": "Free",
+          "description": "基础功能免费使用",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 0.0,
+              "currency": "cny",
+              "features": [
+                "番茄工作法计时器",
+                "个人成就系统",
+                "智能白名单",
+                "详细数据分析",
+                "每周任务目标",
+                "组件中心"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "月度会员",
+          "description": "最受欢迎 月度会员 ¥9.9 ¥19.9 30天 平均每天 ¥0.33",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 9.9,
+              "currency": "cny",
+              "features": [
+                "Block记录 - 网站浏览统计",
+                "摸鱼备忘录 - 悬浮笔记",
+                "打卡提醒 - 智能学习提醒",
+                "Notion同步 - 数据同步 (未来推出)",
+                "每周学习报告邮件",
+                "组件中心高级功能 (未来推出)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "季度会员",
+          "description": "超值优惠 季度会员 ¥24.9 ¥59.7 90天 平均每天 ¥0.28 (省15%)",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "quarterly",
+              "price": 24.9,
+              "currency": "cny",
+              "features": [
+                "Block记录 - 网站浏览统计",
+                "摸鱼备忘录 - 悬浮笔记",
+                "打卡提醒 - 智能学习提醒",
+                "Notion同步 - 数据同步 (未来推出)",
+                "每周学习报告邮件",
+                "组件中心高级功能 (未来推出)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "年度会员",
+          "description": "最划算 年度会员 ¥79.9 ¥238.8 365天 平均每天 ¥0.22 (省33%)",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 79.9,
+              "currency": "cny",
+              "features": [
+                "Block记录 - 网站浏览统计",
+                "摸鱼备忘录 - 悬浮笔记",
+                "打卡提醒 - 智能学习提醒",
+                "Notion同步 - 数据同步 (未来推出)",
+                "每周学习报告邮件",
+                "组件中心高级功能 (未来推出)"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "番茄瑞士刀",
+      "domain": "https://tomatonb.com",
+      "source_url": "https://tomatonb.com",
+      "success": true,
+      "content_length": 2193
+    },
+    "Tabmindnote": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "7天免费试用",
+          "description": "免费试用所有功能7天，无需信用卡。",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "所有功能",
+                "无需信用卡",
+                "7天完整体验"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "月度订阅",
+          "description": "按月订阅，享受所有高级功能。",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 8.0,
+              "currency": "usd",
+              "features": [
+                "所有高级功能",
+                "按月计费",
+                "邮件技术支持"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "年度订阅",
+          "description": "年度订阅享受2个月免费，更加优惠。",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 96.0,
+              "currency": "usd",
+              "features": [
+                "所有高级功能",
+                "按年计费",
+                "相当于2个月免费"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "企业私有部署",
+          "description": "数据本地存储，完全掌控您的数据安全。",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 300.0,
+              "currency": "usd",
+              "features": [
+                "所有企业功能",
+                "本地数据存储",
+                "优先技术支持",
+                "定制化开发"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Tabmindnote",
+      "domain": "https://tabmindnote.com",
+      "source_url": "https://tabmindnote.com",
+      "success": true,
+      "content_length": 1588
+    },
+    "Zillow Data Exporter": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Starter Monthly",
+          "description": "Your Secret tool for lead generation with 430 Credits (107 Lead Searches).",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 19.0,
+              "currency": "usd",
+              "features": [
+                "One-click export of Leads data to Excel",
+                "Comprehensive Leads data including email and more",
+                "Save hours on manual data collection",
+                "14-day money-back guarantee",
+                "24/7 email support",
+                "Flexible monthly subscription - cancel anytime"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Advanced Yearly",
+          "description": "MOST POPULAR Advanced Yearly plan saving 2 months of subscription with 5,140 Credits (1,285 Lead Searches).",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 189.0,
+              "currency": "usd",
+              "features": [
+                "One-click export of comprehensive Leads data to Excel",
+                "Save hours on manual data collection and organization",
+                "Streamline property analysis for informed decisions",
+                "Comprehensive Leads data including email and more",
+                "120-day money-back guarantee for risk-free trial",
+                "24/7 email support",
+                "Flexible monthly subscription - cancel anytime"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Professional Monthly",
+          "description": "You need powerful leads with 1,710 Credits (427 Lead Searches).",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 39.0,
+              "currency": "usd",
+              "features": [
+                "One-click export of Leads data to Excel",
+                "Comprehensive Leads data including email and more",
+                "Save hours on manual data collection",
+                "AI-powered lead generation coming soon",
+                "18-day money-back guarantee",
+                "Priority 24/7 email support",
+                "Flexible monthly subscription - cancel anytime"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Zillow Data Exporter",
+      "domain": "https://poloify.com",
+      "source_url": "https://poloify.com/#pricing",
+      "success": true,
+      "content_length": 8680
+    },
+    "Laser Cat": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Laser Cat",
+          "description": "Shoot laser at things you want to remove from the internet. This extension adds a laser cat to your internet. Use the laser to zap things you want to remove! Unlock all characters with a one-time support or alternatively unlock them with points based on how long time you have used the extension. Offers in-app purchases.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Laser cat to zap things on websites",
+                "Points system for unlocking characters over time",
+                "In-app purchases for one-time unlock of all characters"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Laser Cat",
+      "domain": "https://lasercat.app",
+      "source_url": "https://chrome.google.com/webstore/detail/laser-cat/ccnpdidcjgcdgaopacccfghmgdlipnoc",
+      "success": true,
+      "content_length": 6267
+    },
+    "Tracked for Basecamp": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Per User",
+          "description": "Pay $3 per user per month with a minimum charge of $9/mo",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 3.0,
+              "currency": "usd",
+              "features": [
+                "Unlimited Todos",
+                "Unlimited Projects",
+                "Unlimited Labels",
+                "Unlimited Estimates",
+                "Free trial for 30 days"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unlimited Users",
+          "description": "Flat rate for unlimited users",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "flat",
+              "billing_period": "monthly",
+              "price": 60.0,
+              "currency": "usd",
+              "features": [
+                "Unlimited Todos",
+                "Unlimited Projects",
+                "Unlimited Labels",
+                "Unlimited Estimates",
+                "Free trial for 30 days"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Tracked for Basecamp",
+      "domain": "https://www.trackedhq.com/",
+      "source_url": "https://www.trackedhq.com/",
+      "success": true,
+      "content_length": 168
+    },
+    "VidAI": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "VidAI Free",
+          "description": "Jumpstart your content creation with our Free Package, available indefinitely to all users. This package offers essential features to enhance your YouTube strategy at no cost. Although some advanced features are limited, you can effortlessly upgrade to our premium plans for more comprehensive tools.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Channel linking",
+                "100 translations/month",
+                "30 AI requests/month"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "VidAI Entry",
+          "description": "Entry-level plan with unlimited channel linking, more translations and AI requests, plus YouTube Navigator Bot access.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 2.39,
+              "currency": "usd",
+              "features": [
+                "Unlimited channel linking",
+                "300 translations/month",
+                "100 AI requests/month",
+                "YouTube Navigator Bot access"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "VidAI Essential",
+          "description": "Essential plan with unlimited channel linking, increased translations and AI requests, plus YouTube Navigator Bot access.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 4.79,
+              "currency": "usd",
+              "features": [
+                "Unlimited channel linking",
+                "1000 translations/month",
+                "200 AI requests/month",
+                "YouTube Navigator Bot access"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "VidAI Professional",
+          "description": "Professional plan with unlimited channel linking, high translations and AI requests, daily ideas, trending niches, custom GPT models, and YouTube Navigator Bot access.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 9.59,
+              "currency": "usd",
+              "features": [
+                "Unlimited channel linking",
+                "3000 translations/month",
+                "1000 AI requests/month",
+                "Daily ideas and Trending Niches",
+                "Custom GPT models (GPT-4+)",
+                "YouTube Navigator Bot access"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "VidAI Max",
+          "description": "Max plan with unlimited channel linking, extensive translations and AI requests, daily ideas, trending niches, exclusive custom GPT models, constant support, and YouTube Navigator Bot access.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 15.99,
+              "currency": "usd",
+              "features": [
+                "Unlimited channel linking",
+                "10000 translations/month",
+                "5000 AI requests/month",
+                "Daily ideas and Trending Niches",
+                "Exclusive custom GPT models",
+                "Constant support",
+                "YouTube Navigator Bot access"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "VidAI Ultra",
+          "description": "Ultra plan with unlimited channel linking, maximum translations and AI requests, daily ideas, trending niches, exclusive custom GPT models, constant support, and YouTube Navigator Bot access.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 39.99,
+              "currency": "usd",
+              "features": [
+                "Unlimited channel linking",
+                "30000 translations/month",
+                "10000 AI requests/month",
+                "Daily ideas and Trending Niches",
+                "Exclusive custom GPT models",
+                "Constant support",
+                "YouTube Navigator Bot access"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "VidAI",
+      "domain": "https://vidai.help/",
+      "source_url": "https://vidai.help/",
+      "success": true,
+      "content_length": 5073
+    },
+    "Merch Dominator For Merch By Amazon & KDP": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Platinum",
+          "description": "Perfect for expert sellers looking to scale",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 99.0,
+              "currency": "usd",
+              "features": [
+                "Dashboard",
+                "Tutorials",
+                "Support",
+                "Product Search",
+                "MBA & KDP Best Sellers",
+                "Seller Trends",
+                "Brands",
+                "Merch Archive",
+                "Live Research",
+                "Deleted Designs",
+                "Sales Estimator",
+                "RedBubble Keyword Suggestions",
+                "Trending Searches",
+                "Tag Generator",
+                "POD Inspiration",
+                "Etsy Profit Calculator",
+                "Events",
+                "Upcoming Calendar",
+                "Trademark TM Search",
+                "TM Watchlist",
+                "Keywords",
+                "Keyword Trends",
+                "Keyword Analysis",
+                "Listing Creator",
+                "Keyword Processor",
+                "AI Tools",
+                "AI Quote Generator",
+                "AI Niche Generator",
+                "AI Listing Creator",
+                "Designer Favorites",
+                "Product History",
+                "Product Image Download",
+                "Extension",
+                "Bonuses",
+                "Priority Support",
+                "Unlimited access for most features",
+                "1500 credits per month for some features",
+                "Exclusive GPTs that will reduce your work time by 90% ($999 Value, annual only)",
+                "Exclusive Design Templates ($1100 Value)",
+                "10k POD Formula ($297)",
+                "Early Access to New Features ($349 Value)"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "annually",
+              "price": 990.0,
+              "currency": "usd",
+              "features": [
+                "Dashboard",
+                "Tutorials",
+                "Support",
+                "Product Search",
+                "MBA & KDP Best Sellers",
+                "Seller Trends",
+                "Brands",
+                "Merch Archive",
+                "Live Research",
+                "Deleted Designs",
+                "Sales Estimator",
+                "RedBubble Keyword Suggestions",
+                "Trending Searches",
+                "Tag Generator",
+                "POD Inspiration",
+                "Etsy Profit Calculator",
+                "Events",
+                "Upcoming Calendar",
+                "Trademark TM Search",
+                "TM Watchlist",
+                "Keywords",
+                "Keyword Trends",
+                "Keyword Analysis",
+                "Listing Creator",
+                "Keyword Processor",
+                "AI Tools",
+                "AI Quote Generator",
+                "AI Niche Generator",
+                "AI Listing Creator",
+                "Designer Favorites",
+                "Product History",
+                "Product Image Download",
+                "Extension",
+                "Bonuses",
+                "Priority Support",
+                "Unlimited access for most features",
+                "1500 credits per month for some features",
+                "Exclusive GPTs that will reduce your work time by 90% ($999 Value, annual only)",
+                "Exclusive Design Templates ($1100 Value)",
+                "10k POD Formula ($297)",
+                "Early Access to New Features ($349 Value)"
+              ]
+            },
+            {
+              "type": "one_time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 999.0,
+              "currency": "usd",
+              "features": [
+                "Dashboard",
+                "Tutorials",
+                "Support",
+                "Product Search",
+                "MBA & KDP Best Sellers",
+                "Seller Trends",
+                "Brands",
+                "Merch Archive",
+                "Live Research",
+                "Deleted Designs",
+                "Sales Estimator",
+                "RedBubble Keyword Suggestions",
+                "Trending Searches",
+                "Tag Generator",
+                "POD Inspiration",
+                "Etsy Profit Calculator",
+                "Events",
+                "Upcoming Calendar",
+                "Trademark TM Search",
+                "TM Watchlist",
+                "Keywords",
+                "Keyword Trends",
+                "Keyword Analysis",
+                "Listing Creator",
+                "Keyword Processor",
+                "AI Tools",
+                "AI Quote Generator",
+                "AI Niche Generator",
+                "AI Listing Creator",
+                "Designer Favorites",
+                "Product History",
+                "Product Image Download",
+                "Extension",
+                "Bonuses",
+                "Priority Support",
+                "Unlimited access for most features",
+                "1500 credits per month for some features",
+                "Exclusive GPTs that will reduce your work time by 90% ($999 Value, annual only)",
+                "Exclusive Design Templates ($1100 Value)",
+                "10k POD Formula ($297)",
+                "Early Access to New Features ($349 Value)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Premium",
+          "description": "The must-have solution for growing your business",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 49.0,
+              "currency": "usd",
+              "features": [
+                "Dashboard",
+                "Tutorials",
+                "Support",
+                "Product Search",
+                "MBA & KDP Best Sellers",
+                "Seller Trends",
+                "Brands",
+                "Merch Archive",
+                "Live Research",
+                "Deleted Designs",
+                "Sales Estimator",
+                "RedBubble Keyword Suggestions",
+                "Trending Searches",
+                "Tag Generator",
+                "POD Inspiration",
+                "Etsy Profit Calculator",
+                "Events",
+                "Upcoming Calendar",
+                "Trademark TM Search",
+                "TM Watchlist",
+                "Keywords",
+                "Keyword Trends",
+                "Keyword Analysis",
+                "Listing Creator",
+                "Keyword Processor",
+                "AI Tools",
+                "AI Quote Generator",
+                "AI Niche Generator",
+                "AI Listing Creator",
+                "Designer Favorites",
+                "Product History",
+                "Product Image Download",
+                "Extension",
+                "Bonuses",
+                "Standard Support",
+                "600 credits per month for most features",
+                "10k POD Formula ($297)",
+                "Exclusive Design Templates ($1100 Value)"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "annually",
+              "price": 490.0,
+              "currency": "usd",
+              "features": [
+                "Dashboard",
+                "Tutorials",
+                "Support",
+                "Product Search",
+                "MBA & KDP Best Sellers",
+                "Seller Trends",
+                "Brands",
+                "Merch Archive",
+                "Live Research",
+                "Deleted Designs",
+                "Sales Estimator",
+                "RedBubble Keyword Suggestions",
+                "Trending Searches",
+                "Tag Generator",
+                "POD Inspiration",
+                "Etsy Profit Calculator",
+                "Events",
+                "Upcoming Calendar",
+                "Trademark TM Search",
+                "TM Watchlist",
+                "Keywords",
+                "Keyword Trends",
+                "Keyword Analysis",
+                "Listing Creator",
+                "Keyword Processor",
+                "AI Tools",
+                "AI Quote Generator",
+                "AI Niche Generator",
+                "AI Listing Creator",
+                "Designer Favorites",
+                "Product History",
+                "Product Image Download",
+                "Extension",
+                "Bonuses",
+                "Standard Support",
+                "600 credits per month for most features",
+                "10k POD Formula ($297)",
+                "Exclusive Design Templates ($1100 Value)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Starter",
+          "description": "The tools and training you need to get started",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 29.0,
+              "currency": "usd",
+              "features": [
+                "Dashboard",
+                "Tutorials",
+                "Support",
+                "Product Search",
+                "MBA & KDP Best Sellers",
+                "Seller Trends",
+                "Brands",
+                "Merch Archive",
+                "Live Research",
+                "Deleted Designs",
+                "Sales Estimator",
+                "RedBubble Keyword Suggestions",
+                "Trending Searches",
+                "Tag Generator",
+                "POD Inspiration",
+                "Etsy Profit Calculator",
+                "Events",
+                "Upcoming Calendar",
+                "Trademark TM Search",
+                "TM Watchlist",
+                "Keywords",
+                "Keyword Trends",
+                "Keyword Analysis",
+                "Listing Creator",
+                "Keyword Processor",
+                "AI Tools",
+                "AI Quote Generator",
+                "AI Niche Generator",
+                "AI Listing Creator",
+                "Designer Favorites",
+                "Product History",
+                "Product Image Download",
+                "Extension",
+                "Bonuses",
+                "Basic Support",
+                "200 credits per month for most features",
+                "10k POD Formula ($297)"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "annually",
+              "price": 290.0,
+              "currency": "usd",
+              "features": [
+                "Dashboard",
+                "Tutorials",
+                "Support",
+                "Product Search",
+                "MBA & KDP Best Sellers",
+                "Seller Trends",
+                "Brands",
+                "Merch Archive",
+                "Live Research",
+                "Deleted Designs",
+                "Sales Estimator",
+                "RedBubble Keyword Suggestions",
+                "Trending Searches",
+                "Tag Generator",
+                "POD Inspiration",
+                "Etsy Profit Calculator",
+                "Events",
+                "Upcoming Calendar",
+                "Trademark TM Search",
+                "TM Watchlist",
+                "Keywords",
+                "Keyword Trends",
+                "Keyword Analysis",
+                "Listing Creator",
+                "Keyword Processor",
+                "AI Tools",
+                "AI Quote Generator",
+                "AI Niche Generator",
+                "AI Listing Creator",
+                "Designer Favorites",
+                "Product History",
+                "Product Image Download",
+                "Extension",
+                "Bonuses",
+                "Basic Support",
+                "200 credits per month for most features",
+                "10k POD Formula ($297)"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Merch Dominator For Merch By Amazon & KDP",
+      "domain": "https://merchdominator.com",
+      "source_url": "https://merchdominator.com",
+      "success": true,
+      "content_length": 18414
+    },
+    "MyLens AI: Webpage and YouTube Video Summarizer": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free",
+          "description": "",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Fast AI Mode",
+                "3 Stories Per Day",
+                "Limited Expands",
+                "Planner with 3 Stories",
+                "1 Input per Story",
+                "Small Inputs",
+                "Public Stories",
+                "Non-editable"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro",
+          "description": "",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 12.0,
+              "currency": "usd",
+              "features": [
+                "Powerful AI Mode",
+                "300 Stories Per Month",
+                "Unlimited Expands",
+                "Planner with 10 Stories",
+                "1 Input per Story",
+                "10X Larger Inputs",
+                "Private Stories",
+                "Editable",
+                "Pro Download & Share"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 144.0,
+              "currency": "usd",
+              "features": [
+                "Powerful AI Mode",
+                "300 Stories Per Month",
+                "Unlimited Expands",
+                "Planner with 10 Stories",
+                "1 Input per Story",
+                "10X Larger Inputs",
+                "Private Stories",
+                "Editable",
+                "Pro Download & Share"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Growth",
+          "description": "",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 36.0,
+              "currency": "usd",
+              "features": [
+                "1,000 Stories Per Month",
+                "Multiple Inputs per Story",
+                "Planner with 20 Stories",
+                "20X Larger Inputs",
+                "Deep Web Search",
+                "Add Your Brand Kit"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 432.0,
+              "currency": "usd",
+              "features": [
+                "1,000 Stories Per Month",
+                "Multiple Inputs per Story",
+                "Planner with 20 Stories",
+                "20X Larger Inputs",
+                "Deep Web Search",
+                "Add Your Brand Kit"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "description": "Custom",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "SSO & Enhanced Security",
+                "Custom AI Visualizers",
+                "Large-scale Inputs",
+                "Enterprise Integrations",
+                "Custom Branding",
+                "Dedicated Success Manager"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "MyLens AI: Webpage and YouTube Video Summarizer",
+      "domain": "https://mylens.ai",
+      "source_url": "https://mylens.ai/pricing",
+      "success": true,
+      "content_length": 910
+    },
+    "AliExpress Images Downloader": {
+      "name": "AliExpress Images Downloader",
+      "domain": "https://extbolt.com",
+      "error": "All URLs failed to yield valid pricing data",
+      "attempted_urls": [
+        "https://extbolt.com/",
+        "https://extbolt.com"
+      ],
+      "success": false
+    },
+    "Pointer: AI agent for Google Docs": {
+      "name": "Pointer: AI agent for Google Docs",
+      "domain": "https://getpointer.ai",
+      "error": "All URLs failed to yield valid pricing data",
+      "attempted_urls": [
+        "https://getpointer.ai/pricing",
+        "https://www.getpointer.ai/pricing",
+        "https://getpointer.ai",
+        "https://www.getpointer.ai",
+        "https://getpointer.ai/",
+        "https://www.getpointer.ai/google-docs-ai",
+        "https://getpointer.ai/google-docs-ai"
+      ],
+      "success": false
     }
   },
-  "processed_count": 84,
+  "processed_count": 101,
   "total_count": 240,
-  "timestamp": 1758937873.2878416
+  "timestamp": 1758941174.41701
 }
