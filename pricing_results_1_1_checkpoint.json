@@ -1,0 +1,4595 @@
+{
+  "results": {
+    "ezbot Visual Editor": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Starter",
+          "description": "Designed for growing businesses that want to start optimizing their website",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 199.0,
+              "currency": "usd",
+              "features": [
+                "Start 30 Day Trial",
+                "No-code Visual Editor",
+                "Performance Dashboard",
+                "Guided Setup",
+                "Email Support",
+                "Up to 35K visitors/mo",
+                "1 Project",
+                "10 Variables",
+                "1 Seat",
+                "$0.01/prediction Overage"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Professional",
+          "description": "Designed for teams that want to supercharge their conversions",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 1999.0,
+              "currency": "usd",
+              "features": [
+                "Start 14 Day Trial",
+                "Includes Starter +",
+                "Deeper Analytics",
+                "Beta Access to New Features",
+                "ezbot Slack access",
+                "Priority Support",
+                "Up to 500K visitors/mo",
+                "3 Projects",
+                "Unlimited Variables",
+                "3 Seats",
+                "$0.008/prediction Overage"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Custom",
+          "description": "For teams or agencies with high traffic, complex experiments, or unique requirements",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Contact Sales",
+                "Includes Professional +",
+                "Access to Raw Data",
+                "Monthly Reports",
+                "Priority Feature Requests",
+                "Live Support",
+                "Any or No Traffic Limits",
+                "Unlimited Projects",
+                "Unlimited Variables",
+                "Unlimited Seats",
+                "$0.005/prediction Overage"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "ezbot Visual Editor",
+      "domain": "https://ezbot.ai",
+      "source_url": "https://ezbot.ai/pricing",
+      "success": true,
+      "content_length": 913
+    },
+    "AutoSwiper.Ai": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free Trial",
+          "description": "Perfect for getting started",
+          "pricing_tiers": [
+            {
+              "type": "trial",
+              "usage_type": "licensed",
+              "billing_period": "14 days",
+              "price": 0,
+              "currency": "usd",
+              "features": [
+                "Up to 10 recordings",
+                "Basic AI summaries",
+                "File upload support",
+                "Web app access",
+                "Email support"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Monthly",
+          "description": "For regular users",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 19,
+              "currency": "usd",
+              "features": [
+                "Unlimited recordings",
+                "Advanced AI analysis",
+                "Priority processing",
+                "Mobile app access",
+                "Export to multiple formats",
+                "Priority support",
+                "Custom templates"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Yearly",
+          "description": "Best value - 21% off",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 180,
+              "currency": "usd",
+              "features": [
+                "Everything in Monthly",
+                "Advanced integrations",
+                "Custom AI models",
+                "Team collaboration",
+                "API access",
+                "Dedicated support",
+                "Early feature access"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "AutoSwiper.Ai",
+      "domain": "https://autoswiper.ai",
+      "source_url": "https://autoswiper.ai/#pricing",
+      "success": true,
+      "content_length": 11806
+    },
+    "Sync: Fortalece tus Relaciones B2B con IA": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "AI Adoption Sprint",
+          "description": "Implementa Inteligencia Artificial en 4 semanas y ahorra meses de trabajo. Precio Especial por Lanzamiento. Si en 4 semanas no tienes una solución funcional, te devolvemos tu dinero. Metodología Probada Reduce meses de implementación a semanas con nuestro framework optimizado. Grupo Reducido Acompañamiento personalizado en cada paso del proceso. Equipo Experto Mentores con experiencia real en implementación práctica de IA. Soluciones Escalables Diseñadas desde el inicio para crecer con tu organización. Duración 4 semanas. Formato 100% en vivo (2 sesiones semanales de 75 minutos cada una). Dirigido a CEOs, CTOs, PMs, líderes de innovación y desarrolladores con capacidad de implementación. Resultados Una solución de IA funcional y lista para escalar en tu operación. Semana 1: Selección del Caso de Uso. Semana 2: Construcción y Primeros Resultados. Semana 3: Validación y Optimización. Semana 4: Escalabilidad y Lanzamiento. Soporte Continuo: Consultoría mensual, Mentoría y capacitación, Plan de escalabilidad, Soporte técnico prioritario.",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": "once",
+              "price": 4300.0,
+              "currency": "usd",
+              "features": [
+                "Metodología Probada",
+                "Grupo Reducido (hasta 3 participantes)",
+                "Equipo Experto",
+                "Soluciones Escalables",
+                "4 semanas de implementación",
+                "100% en vivo",
+                "2 sesiones semanales de 75 minutos",
+                "Acompañamiento personalizado",
+                "Solución de IA funcional",
+                "Semana 1: Selección del Caso de Uso",
+                "Semana 2: Construcción y Primeros Resultados",
+                "Semana 3: Validación y Optimización",
+                "Semana 4: Escalabilidad y Lanzamiento",
+                "Soporte Continuo: Consultoría mensual",
+                "Mentoría y capacitación",
+                "Plan de escalabilidad",
+                "Soporte técnico prioritario",
+                "Garantía de devolución si no hay solución funcional"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Sync: Fortalece tus Relaciones B2B con IA",
+      "domain": "https://kemeny.studio",
+      "source_url": "https://kemeny.studio/servicios/sprint-ia",
+      "success": true,
+      "content_length": 3378
+    },
+    "Due Dilly": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Welcome Bonus",
+          "description": "500% bonus on first deposit, applicable to first four deposits",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "500% bonus on deposit"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cashback",
+          "description": "Up to 30% cashback on casino losses",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "weekly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "1%: Max $30, Min $1120",
+                "2%: Max $40, Min $3360",
+                "3%: Max $60, Min $5600",
+                "4%: Max $90, Min $8950",
+                "5%: Max $170, Min $11190",
+                "10%: Max $220, Min $111930",
+                "20%: Max $340, Min $223850",
+                "30%: Max $560, Min $559630"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BetGames Cashback",
+          "description": "15% cashback on BetGames over weekends",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "weekly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "15% cashback",
+                "Return between 1 and 500 euros"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jackpot Bonus",
+          "description": "Bonuses up to €2500 in the jackpot",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Up to €2500 jackpot"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Royal Flush Bonus",
+          "description": "Up to $1000 bonuses for achieving Royal Flush",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Up to $1000 for Royal Flush"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Due Dilly",
+      "domain": "https://duedilly.co",
+      "source_url": "https://duedilly.co/bonus/",
+      "success": true,
+      "content_length": 16362
+    },
+    "Kyla MD Copilot": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free",
+          "description": "Start free with Kyla MD Co-Pilot for intelligent assistance in patient care.",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 0.0,
+              "currency": "usd",
+              "features": []
+            }
+          ]
+        }
+      ],
+      "name": "Kyla MD Copilot",
+      "domain": "https://kyla.com/",
+      "source_url": "https://kyla.com/products/md-copilot",
+      "success": true,
+      "content_length": 116
+    },
+    "ReadiPal: Pure Reading, AI Intelligent Summary, Mind Map": {
+      "name": "ReadiPal: Pure Reading, AI Intelligent Summary, Mind Map",
+      "domain": "https://readipal.com",
+      "error": "All URLs failed to yield valid pricing data",
+      "attempted_urls": [
+        "https://readipal.com"
+      ],
+      "success": false
+    },
+    "AI Browser agent": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Your Package",
+          "description": "Purchase Credits for AI tools. More credits means more power for your AI tools",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 30.0,
+              "currency": "usd",
+              "features": [
+                "Full access to all AI tools",
+                "Credits never expire",
+                "Email chat support"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "AI Browser agent",
+      "domain": "https://manyaitools.com/",
+      "source_url": "https://manyaitools.com/pricing",
+      "success": true,
+      "content_length": 307
+    },
+    "Monica: ChatGPT AI Assistant | DeepSeek, GPT-4o, Claude 3.5, o1 &More": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Unlimited",
+          "description": "Unlimited access to basic and advanced AI models, image and video generation, advanced writing and translation tools, ChatPDF, Monica Code, and cross-platform integrations. Flash offer: 33% off.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 16.6,
+              "currency": "usd",
+              "features": [
+                "Unlimited access to basic models: GPT-4o mini, Claude 3.5 Haiku, DeepSeek V3 & R1",
+                "Unlimited access to advanced models: GPT-5, Claude 4, Gemini 2.5 Pro, Llama 3.1 405B, Grok 3",
+                "Image and video creation: SD3, Dall-E 3, Flux Pro & Dev, Pixverse, Kling, Hailuo, Pika",
+                "Advanced writing, translation, smart summarization, and ChatPDF powered by advanced models",
+                "4500 Advanced Credits",
+                "Monica Code",
+                "Membership benefits",
+                "App integrations",
+                "Cross-platform AI assistant",
+                "Priority email support",
+                "Unlimited requests during high traffic",
+                "2x faster response speed",
+                "Login on 5 devices"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 199,
+              "currency": "usd",
+              "features": [
+                "Unlimited access to basic models: GPT-4o mini, Claude 3.5 Haiku, DeepSeek V3 & R1",
+                "Unlimited access to advanced models: GPT-5, Claude 4, Gemini 2.5 Pro, Llama 3.1 405B, Grok 3",
+                "Image and video creation: SD3, Dall-E 3, Flux Pro & Dev, Pixverse, Kling, Hailuo, Pika",
+                "Advanced writing, translation, smart summarization, and ChatPDF powered by advanced models",
+                "4500 Advanced Credits",
+                "Monica Code",
+                "Membership benefits",
+                "App integrations",
+                "Cross-platform AI assistant",
+                "Priority email support",
+                "Unlimited requests during high traffic",
+                "2x faster response speed",
+                "Login on 5 devices"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro",
+          "description": "Monthly access to basic and advanced AI models, image and video generation, advanced writing and translation tools, ChatPDF, and cross-platform integrations.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 8.3,
+              "currency": "usd",
+              "features": [
+                "5000 monthly accesses to basic models: GPT-4o mini, Claude 3.5 Haiku, DeepSeek V3 & R1",
+                "200 monthly accesses to advanced models: GPT-5, Claude 4, Gemini 2.5 Pro, Llama 3.1 405B, Grok 3",
+                "Image and video creation: SD3, Dall-E 3, Flux Pro & Dev, Pixverse, Kling, Hailuo, Pika",
+                "Advanced writing, translation, smart summarization, and ChatPDF powered by advanced models",
+                "1500 Advanced Credits",
+                "App integrations",
+                "Cross-platform AI assistant",
+                "Login on 5 devices"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 99,
+              "currency": "usd",
+              "features": [
+                "5000 monthly accesses to basic models: GPT-4o mini, Claude 3.5 Haiku, DeepSeek V3 & R1",
+                "200 monthly accesses to advanced models: GPT-5, Claude 4, Gemini 2.5 Pro, Llama 3.1 405B, Grok 3",
+                "Image and video creation: SD3, Dall-E 3, Flux Pro & Dev, Pixverse, Kling, Hailuo, Pika",
+                "Advanced writing, translation, smart summarization, and ChatPDF powered by advanced models",
+                "1500 Advanced Credits",
+                "App integrations",
+                "Cross-platform AI assistant",
+                "Login on 5 devices"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Free",
+          "description": "Limited daily access to basic AI models, limited trials for image/video creation, basic writing and translation tools, limited ChatPDF, and cross-platform integrations.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "40 daily accesses to basic models: GPT-4o mini, Claude 3.5 Haiku, DeepSeek V3 & R1",
+                "Limited trials for image/video creation",
+                "Basic writing, translation, and smart summarization powered by basic models",
+                "Limited trials for ChatPDF",
+                "App integrations",
+                "Cross-platform AI assistant",
+                "Login on 3 devices"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Monica: ChatGPT AI Assistant | DeepSeek, GPT-4o, Claude 3.5, o1 &More",
+      "domain": "https://monica.im",
+      "source_url": "https://monica.im/id/pricing",
+      "success": true,
+      "content_length": 6812
+    },
+    "ZapVoice": {
+      "currency": "BRL",
+      "plans": [
+        {
+          "name": "Gratuito",
+          "description": "Plano gratuito para sempre",
+          "pricing_tiers": [
+            {
+              "type": "free",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 0.0,
+              "currency": "BRL",
+              "features": [
+                "Para 1 número",
+                "Áudios (20 envios/dia)",
+                "Mídias (20 envios/dia)",
+                "Documentos (20 envios/dia)",
+                "Textos (20 envios/dia)",
+                "Aprimoramentos do WhatsApp",
+                "Fluxos (5 envios/dia)",
+                "Funis (5 envios/dia)",
+                "Gatilhos (Consome de funis)",
+                "Agendamento de mensagens (5 simultâneos)",
+                "Disparo em massa (2 envios/dia)",
+                "Etiquetas personalizadas"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Básico",
+          "description": "Plano Básico",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "annual",
+              "price": 299.4,
+              "currency": "BRL",
+              "features": [
+                "1 a 10 Números",
+                "Áudios ilimitados",
+                "Mídias ilimitadas",
+                "Documentos ilimitados",
+                "Textos ilimitados",
+                "Aprimoramentos do WhatsApp",
+                "Fluxos (15 envios/dia)",
+                "Funis ilimitados",
+                "Gatilhos ilimitados",
+                "Agendamento de mensagens (10 simultâneos)",
+                "Disparo em massa (5 envios/dia)",
+                "Etiquetas personalizadas"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro",
+          "description": "Plano Pro recomendado",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "annual",
+              "price": 479.4,
+              "currency": "BRL",
+              "features": [
+                "1 a 10 Números",
+                "Áudios ilimitados",
+                "Mídias ilimitadas",
+                "Documentos ilimitados",
+                "Textos ilimitados",
+                "Aprimoramentos do WhatsApp",
+                "Fluxos ilimitados",
+                "Funis ilimitados",
+                "Gatilhos ilimitados",
+                "Agendamento de mensagens ilimitados",
+                "Disparo em massa ilimitados",
+                "Etiquetas personalizadas",
+                "Salvar contatos (Zapsaver) [EM BREVE]"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Personalizado",
+          "description": "Plano personalizado para múltiplos números",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 29.97,
+              "currency": "BRL",
+              "features": [
+                "Preço sob consulta",
+                "Falar com especialista"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "ZapVoice",
+      "domain": "https://zapvoice.com.br/",
+      "source_url": "https://zapvoice.com.br/",
+      "success": true,
+      "content_length": 12056
+    },
+    "GFormTasker": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "1k Submission",
+          "description": "I only need a few submissions. Includes 1000 credits, valid for 60 days, refunds up to 5 days, fast and furious, 99% submission guarantee.",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": "60 days",
+              "price": 0.99,
+              "currency": "usd",
+              "features": [
+                "1000 credits",
+                "Valid for 60 days",
+                "Refunds up to 5 days",
+                "Fast and Furious",
+                "99% Submission Guarantee"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "GFormTasker",
+      "domain": "https://gformtasker.xyz",
+      "source_url": "https://gformtasker.xyz/pricing/",
+      "success": true,
+      "content_length": 195
+    },
+    "MergeMail": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free",
+          "description": "Send up to 50 emails per day for free",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "50 emails / day"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "50 emails / day"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro",
+          "description": "200 emails per day",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 16.0,
+              "currency": "usd",
+              "features": [
+                "200 emails / day"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 12.0,
+              "currency": "usd",
+              "features": [
+                "200 emails / day"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Premium",
+          "description": "1,500 emails per day or more",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 65.0,
+              "currency": "usd",
+              "features": [
+                "1,500 emails / day or more"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 49.0,
+              "currency": "usd",
+              "features": [
+                "1,500 emails / day or more"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team",
+          "description": "Multiple users, 1,500 emails per user per day or more",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 24.0,
+              "currency": "usd",
+              "features": [
+                "per user",
+                "1,500 emails / user / day or more",
+                "volume discounts"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 19.0,
+              "currency": "usd",
+              "features": [
+                "per user",
+                "1,500 emails / user / day or more",
+                "volume discounts"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "MergeMail",
+      "domain": "https://mergemail.co",
+      "source_url": "https://mergemail.co/pricing",
+      "success": true,
+      "content_length": 2949
+    },
+    "Save and Backup My Emails by cloudHQ": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Basic",
+          "description": "Free one user Limited to 200 emails per month Email and phone support",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "one user",
+                "Limited to 200 emails per month",
+                "Email and phone support"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Premium",
+          "description": "Unlimited full email backup Unlimited email saves Email and phone support",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 14.99,
+              "currency": "usd",
+              "features": [
+                "Unlimited full email backup",
+                "Unlimited email saves",
+                "Email and phone support"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Save and Backup My Emails by cloudHQ",
+      "domain": "https://save-and-backup-my-emails.com",
+      "source_url": "https://save-and-backup-my-emails.com/pricing",
+      "success": true,
+      "content_length": 1140
+    },
+    "Oink for Influencers": {
+      "name": "Oink for Influencers",
+      "domain": "https://thelaststopreviewshop.com/",
+      "error": "All URLs failed to yield valid pricing data",
+      "attempted_urls": [
+        "https://thelaststopreviewshop.com/",
+        "https://oinkforinfluencers.com/",
+        "https://oinkforinfluencers.com/book-a-consult/",
+        "https://oinkforinfluencers.com/order-shoppable-video/"
+      ],
+      "success": false
+    },
+    "Professionally AI Email Writer": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Monthly",
+          "description": "25% OFF on monthly plan",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 11.99,
+              "currency": "usd",
+              "features": [
+                "2,000 Emails per Month",
+                "Diverse Tone Options",
+                "Cross-Platform support",
+                "Multi-Device Support",
+                "* 125 words is considered one email. If your emails are shorter than 125 words then you get to write more emails."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Annually",
+          "description": "50% OFF, 25% discount compared to Monthly",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "annual",
+              "price": 5.99,
+              "currency": "usd",
+              "features": [
+                "2,000 Emails per Month",
+                "Diverse Tone Options",
+                "Cross-Platform support",
+                "Multi-Device Support",
+                "* 125 words is considered one email. If your emails are shorter than 125 words then you get to write more emails."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Trial",
+          "description": "Free for 30 days, no credit card required",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Full functionality for 30 days",
+                "2,000 Emails per Month",
+                "Diverse Tone Options",
+                "Cross-Platform support",
+                "Multi-Device Support",
+                "* 125 words is considered one email. If your emails are shorter than 125 words then you get to write more emails."
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Professionally AI Email Writer",
+      "domain": "https://professionally.ai",
+      "source_url": "https://professionally.ai/pages/pricing",
+      "success": true,
+      "content_length": 1030
+    },
+    "Chat GPT": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Starter",
+          "description": "Basic plan for getting started",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "1.500 requests to Basic AIs (GPT-4o mini, Claude 3.5 Haiku, Claude 3 Haiku, Gemini 1.5 Flash & Llama 3.3 70B)",
+                "100 requests to Advanced AIs (GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro & Llama 3.1 405B)",
+                "Super Advanced AI Models: o1 & o1-mini"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "1.500 requests to Basic AIs (GPT-4o mini, Claude 3.5 Haiku, Claude 3 Haiku, Gemini 1.5 Flash & Llama 3.3 70B)",
+                "100 requests to Advanced AIs (GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro & Llama 3.1 405B)",
+                "Super Advanced AI Models: o1 & o1-mini",
+                "20% OFF"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro",
+          "description": "Pro plan for more requests",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "3.200 requests to Basic AIs (GPT-4o mini, Claude 3.5 Haiku, Claude 3 Haiku, Gemini 1.5 Flash & Llama 3.3 70B)",
+                "210 requests to Advanced AIs (GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro & Llama 3.1 405B)",
+                "Super Advanced AI Models: o1 & o1-mini"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "3.200 requests to Basic AIs (GPT-4o mini, Claude 3.5 Haiku, Claude 3 Haiku, Gemini 1.5 Flash & Llama 3.3 70B)",
+                "210 requests to Advanced AIs (GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro & Llama 3.1 405B)",
+                "Super Advanced AI Models: o1 & o1-mini",
+                "20% OFF"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Premium",
+          "description": "Premium plan for maximum requests",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "6.500 requests to Basic AIs (GPT-4o mini, Claude 3.5 Haiku, Claude 3 Haiku, Gemini 1.5 Flash & Llama 3.3 70B)",
+                "450 requests to Advanced AIs (GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro & Llama 3.1 405B)",
+                "Super Advanced AI Models: o1 & o1-mini"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "6.500 requests to Basic AIs (GPT-4o mini, Claude 3.5 Haiku, Claude 3 Haiku, Gemini 1.5 Flash & Llama 3.3 70B)",
+                "450 requests to Advanced AIs (GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro & Llama 3.1 405B)",
+                "Super Advanced AI Models: o1 & o1-mini",
+                "20% OFF"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Chat GPT",
+      "domain": "https://gptsidebar.com",
+      "source_url": "https://gptsidebar.com/pricing",
+      "success": true,
+      "content_length": 2535
+    },
+    "Vocably: Language Flashcards": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free",
+          "description": "Free plan with limited features: Save translations as flashcards (first 300 cards unlimited, over 300 cards: 1 card per day).",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Translate with Chrome/Safari extension",
+                "Translate in iOS/Android app",
+                "Translate with iOS Safari extension",
+                "Share any selected word with iOS/Android app",
+                "Save translations as flashcards (first 300 cards unlimited, over 300 cards: 1 card per day)",
+                "Study all the saved flashcards in iOS/Android app",
+                "Study multiple languages",
+                "Mnemonics for better recall",
+                "Import and Export (as CSV file)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Premium",
+          "description": "Premium plan with unlimited features.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 4.99,
+              "currency": "usd",
+              "features": [
+                "Translate with Chrome/Safari extension",
+                "Translate in iOS/Android app",
+                "Translate with iOS Safari extension",
+                "Share any selected word with iOS/Android app",
+                "Save translations as flashcards (unlimited)",
+                "Study all the saved flashcards in iOS/Android app",
+                "Study multiple languages",
+                "Mnemonics for better recall",
+                "Import and Export (as CSV file)"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 29.99,
+              "currency": "usd",
+              "features": [
+                "Translate with Chrome/Safari extension",
+                "Translate in iOS/Android app",
+                "Translate with iOS Safari extension",
+                "Share any selected word with iOS/Android app",
+                "Save translations as flashcards (unlimited)",
+                "Study all the saved flashcards in iOS/Android app",
+                "Study multiple languages",
+                "Mnemonics for better recall",
+                "Import and Export (as CSV file)"
+              ]
+            },
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": "lifetime",
+              "price": 69.99,
+              "currency": "usd",
+              "features": [
+                "Translate with Chrome/Safari extension",
+                "Translate in iOS/Android app",
+                "Translate with iOS Safari extension",
+                "Share any selected word with iOS/Android app",
+                "Save translations as flashcards (unlimited)",
+                "Study all the saved flashcards in iOS/Android app",
+                "Study multiple languages",
+                "Mnemonics for better recall",
+                "Import and Export (as CSV file)"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Vocably: Language Flashcards",
+      "domain": "https://vocably.pro",
+      "source_url": "https://vocably.pro/pricing.html",
+      "success": true,
+      "content_length": 502
+    },
+    "ToDiagram": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free",
+          "description": "For casual users who need basic access to the editor.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Small diagram size",
+                "Export PNG & JPEG"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro",
+          "description": "For professionals and everyday users who need full access to the editor.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 100.0,
+              "currency": "usd",
+              "features": [
+                "Large diagram size",
+                "Export as SVG",
+                "Cloud save & sharing",
+                "MCP Server & API access",
+                "AI Diagram generation",
+                "AI Filter & Transform"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Teams",
+          "description": "For teams (min. 3 members) that need collaborative access to the editor. Everything in Pro, plus: Share documents with team Manage billing centrally",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 90.0,
+              "currency": "usd",
+              "features": [
+                "Large diagram size",
+                "Export as SVG",
+                "Cloud save & sharing",
+                "MCP Server & API access",
+                "AI Diagram generation",
+                "AI Filter & Transform",
+                "Share documents with team",
+                "Manage billing centrally"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "ToDiagram",
+      "domain": "https://todiagram.com",
+      "source_url": "https://todiagram.com/pricing",
+      "success": true,
+      "content_length": 616
+    },
+    "Free All-in-One SEO and Website Traffic Analysis Tool by AnalyzeSphere": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free Plan",
+          "description": "Free AI Humanizer for SEO Content. Turn AI text into human-like content effortlessly, up to 15000 characters. No account required.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Humanize AI text",
+                "Remove AI detection",
+                "Enhance to human-quality writing",
+                "Bypass AI detection tools like Turnitin, Copyleaks, and GPTZero",
+                "Generate 100% plagiarism-free content",
+                "Supports multiple languages",
+                "Works on all devices including desktops, laptops, tablets, and smartphones",
+                "No registration or sign-up required",
+                "Protects content privacy and security",
+                "Improves SEO by retaining keywords and optimizing for search engines",
+                "Preserves original meaning, tone, and context",
+                "Perfect for essays, articles, marketing content, and ChatGPT-generated text"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Free All-in-One SEO and Website Traffic Analysis Tool by AnalyzeSphere",
+      "domain": "https://analyze-sphere.com/",
+      "source_url": "https://analyze-sphere.com/ai-humanizer",
+      "success": true,
+      "content_length": 4631
+    },
+    "FixMeBot - AI Writing Assistant and Language Tool": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free",
+          "description": "5 000 trial characters and can try out all features",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Mistakes Correction",
+                "Paraphrasing",
+                "Translation",
+                "Length Adjustment",
+                "Emojifying",
+                "Hashtagifying",
+                "Reply Magic Mode",
+                "Explanation",
+                "5000 trial characters"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Basic",
+          "description": "Subscription plan",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Mistakes Correction: 5 attempts",
+                "Paraphrasing: 5 attempts",
+                "Translation: 5 attempts",
+                "Length Adjustment: 5 attempts",
+                "Emojifying: 5 attempts",
+                "Hashtagifying: 5 attempts",
+                "Reply Magic Mode: 5 attempts (neutral mode)",
+                "Explanation: 10 attempts"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Mistakes Correction: 60 attempts",
+                "Paraphrasing: 60 attempts",
+                "Translation: 60 attempts",
+                "Length Adjustment: 60 attempts",
+                "Emojifying: 60 attempts",
+                "Hashtagifying: 60 attempts",
+                "Reply Magic Mode: 60 attempts (neutral mode)",
+                "Explanation: 120 attempts"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Standard",
+          "description": "Subscription plan",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Mistakes Correction: 20 attempts",
+                "Paraphrasing: 20 attempts",
+                "Translation: 20 attempts",
+                "Length Adjustment: 20 attempts",
+                "Emojifying: 20 attempts",
+                "Hashtagifying: 20 attempts",
+                "Reply Magic Mode: 20 attempts",
+                "Explanation: 10 attempts"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Mistakes Correction: 240 attempts",
+                "Paraphrasing: 240 attempts",
+                "Translation: 240 attempts",
+                "Length Adjustment: 240 attempts",
+                "Emojifying: 240 attempts",
+                "Hashtagifying: 240 attempts",
+                "Reply Magic Mode: 240 attempts",
+                "Explanation: 120 attempts"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Premium",
+          "description": "Subscription plan",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Mistakes Correction: 50 attempts",
+                "Paraphrasing: 50 attempts",
+                "Translation: 50 attempts",
+                "Length Adjustment: 50 attempts",
+                "Emojifying: 50 attempts",
+                "Hashtagifying: 50 attempts",
+                "Reply Magic Mode: 50 attempts",
+                "Explanation: 5 attempts"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Mistakes Correction: 600 attempts",
+                "Paraphrasing: 600 attempts",
+                "Translation: 600 attempts",
+                "Length Adjustment: 600 attempts",
+                "Emojifying: 600 attempts",
+                "Hashtagifying: 600 attempts",
+                "Reply Magic Mode: 600 attempts",
+                "Explanation: 60 attempts"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro",
+          "description": "Subscription plan",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Mistakes Correction: 50 attempts",
+                "Paraphrasing: 50 attempts",
+                "Translation: 50 attempts",
+                "Length Adjustment: 50 attempts",
+                "Emojifying: 50 attempts",
+                "Hashtagifying: 50 attempts",
+                "Reply Magic Mode: 5 attempts",
+                "Explanation: 5 attempts"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Mistakes Correction: 600 attempts",
+                "Paraphrasing: 600 attempts",
+                "Translation: 600 attempts",
+                "Length Adjustment: 600 attempts",
+                "Emojifying: 600 attempts",
+                "Hashtagifying: 600 attempts",
+                "Reply Magic Mode: 60 attempts",
+                "Explanation: 60 attempts"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "FixMeBot - AI Writing Assistant and Language Tool",
+      "domain": "https://fixmebot.com",
+      "source_url": "https://fixmebot.com/pricing",
+      "success": true,
+      "content_length": 1652
+    },
+    "Snaily for LinkedIn™ Auto Connect": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Basic",
+          "description": "Your basic snaily that searching for leads",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 38.0,
+              "currency": "usd",
+              "features": [
+                "Connect people",
+                "Export & Filter contacts",
+                "Send messages",
+                "Campaign statistics",
+                "Send auto follow ups",
+                "Auto withdraw invites",
+                "CSV Export contacts",
+                "Unlimited campaigns"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro",
+          "description": "For pro hunters that require extended features",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 59.0,
+              "currency": "usd",
+              "features": [
+                "Basic features",
+                "Sales navigator",
+                "Activities log",
+                "CSV export",
+                "Cloud - under construction",
+                "Zapier - under construction"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team",
+          "description": "For teams and companies",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 75.0,
+              "currency": "usd",
+              "features": [
+                "Pro features",
+                "Team work",
+                "Woof woof!"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Snaily for LinkedIn™ Auto Connect",
+      "domain": "https://snaily.io",
+      "source_url": "https://snaily.io/pricing/",
+      "success": true,
+      "content_length": 731
+    },
+    "Lightning Bolt Fix V3": {
+      "name": "Lightning Bolt Fix V3",
+      "domain": "https://lightningboltfix.com",
+      "error": "All URLs failed to yield valid pricing data",
+      "attempted_urls": [
+        "https://lightningboltfix.com",
+        "https://chromewebstore.google.com/detail/lightning-bolt-fix/okniiejblehkfmihmpaegdpfepibodhc"
+      ],
+      "success": false
+    },
+    "GSC Inspector (SEO Tool)": {
+      "currency": "eur",
+      "plans": [
+        {
+          "name": "Free",
+          "description": "Ideal para empezar Gratis. Plan Actual (Gratuito)",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "eur",
+              "features": [
+                "30 Inspecciones/mes",
+                "Datos básicos de indexación",
+                "Datos básicos de rendimiento"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Personal",
+          "description": "Más Popular",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 9.99,
+              "currency": "eur",
+              "features": [
+                "120 Inspecciones/mes",
+                "Datos completos de indexación",
+                "Datos completos de rendimiento",
+                "Comparación de fechas"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Plus",
+          "description": "",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 19.99,
+              "currency": "eur",
+              "features": [
+                "360 Inspecciones/mes",
+                "Todo en Personal",
+                "Exportación de datos (Próximamente)",
+                "Soporte prioritario"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Agency",
+          "description": "",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 49.99,
+              "currency": "eur",
+              "features": [
+                "1200 Inspecciones/mes",
+                "Todo en Plus",
+                "Acceso API (Próximamente)",
+                "Múltiples usuarios (Próximamente)"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "GSC Inspector (SEO Tool)",
+      "domain": "https://www.pietramundodigital.com/",
+      "source_url": "https://www.pietramundodigital.com/gsc-inspector",
+      "success": true,
+      "content_length": 1700
+    },
+    "Multapply": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Basic",
+          "description": "Advanced features for basic users",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 9.99,
+              "currency": "usd",
+              "features": [
+                "1 Resume Profile",
+                "50 Daily Job Applications",
+                "Basic ATS Review",
+                "Cover Letter Generation",
+                "Job Recommendations",
+                "Basic Analytics Dashboard",
+                "Email Support"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "annual",
+              "price": 59.88,
+              "currency": "usd",
+              "features": [
+                "1 Resume Profile",
+                "50 Daily Job Applications",
+                "Basic ATS Review",
+                "Cover Letter Generation",
+                "Job Recommendations",
+                "Basic Analytics Dashboard",
+                "Email Support"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Premium",
+          "description": "Most popular for job seekers",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 29.99,
+              "currency": "usd",
+              "features": [
+                "5 Resume Profiles",
+                "100 Daily Job Applications (50 LinkedIn, 50 Indeed)",
+                "Advanced ATS Review",
+                "AI Cover Letter Generator",
+                "Smart Job Recommendations",
+                "Advanced Analytics",
+                "Priority Support",
+                "LinkedIn & Indeed Integration"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "annual",
+              "price": 179.88,
+              "currency": "usd",
+              "features": [
+                "5 Resume Profiles",
+                "100 Daily Job Applications (50 LinkedIn, 50 Indeed)",
+                "Advanced ATS Review",
+                "AI Cover Letter Generator",
+                "Smart Job Recommendations",
+                "Advanced Analytics",
+                "Priority Support",
+                "LinkedIn & Indeed Integration"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro",
+          "description": "Comprehensive services for growing your business",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 49.0,
+              "currency": "usd",
+              "features": [
+                "10 Resume Profiles",
+                "200 Daily Job Applications (100 LinkedIn, 100 Indeed)",
+                "Unlimited ATS Reviews",
+                "AI Cover Letter Generator",
+                "Advanced Job Recommendations",
+                "Full Analytics Suite",
+                "24/7 Priority Support",
+                "API Access",
+                "Early Access to New Features"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "annual",
+              "price": 294.0,
+              "currency": "usd",
+              "features": [
+                "10 Resume Profiles",
+                "200 Daily Job Applications (100 LinkedIn, 100 Indeed)",
+                "Unlimited ATS Reviews",
+                "AI Cover Letter Generator",
+                "Advanced Job Recommendations",
+                "Full Analytics Suite",
+                "24/7 Priority Support",
+                "API Access",
+                "Early Access to New Features"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Multapply",
+      "domain": "https://multapplyjobs.com/",
+      "source_url": "https://multapplyjobs.com/",
+      "success": true,
+      "content_length": 7846
+    },
+    "Preview Test Thumbnails": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free Forever Plan",
+          "description": "10 Preview test/month All screen sizes supported All YouTube pages Competitive Thumbnail Analysis",
+          "pricing_tiers": [
+            {
+              "type": "one_time",
+              "usage_type": "licensed",
+              "billing_period": "lifetime",
+              "price": 0,
+              "currency": "usd",
+              "features": [
+                "10 Preview test/month",
+                "All screen sizes supported",
+                "All YouTube pages",
+                "Competitive Thumbnail Analysis"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Early Bird Plan",
+          "description": "Unlimited Preview test All screen sizes supported All YouTube pages Competitive Thumbnail Analysis",
+          "pricing_tiers": [
+            {
+              "type": "one_time",
+              "usage_type": "licensed",
+              "billing_period": "lifetime",
+              "price": 20,
+              "currency": "usd",
+              "features": [
+                "Unlimited Preview test",
+                "All screen sizes supported",
+                "All YouTube pages",
+                "Competitive Thumbnail Analysis"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Preview Test Thumbnails",
+      "domain": "https://preview-test-thumbnails.vercel.app/",
+      "source_url": "https://preview-test-thumbnails.vercel.app/",
+      "success": true,
+      "content_length": 846
+    },
+    "ClipFlip": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "ClipFlip Free",
+          "description": "Free starter plan for personal use",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Free multiplayer workspace",
+                "20 Video Recordings",
+                "5-Minute Max Duration",
+                "Simple Video Editing and Trimming",
+                "Share on Gmail, LinkedIn, Facebook, and X",
+                "Tracking and Analytics",
+                "ClipFlip-Branded Video Hosting",
+                "Basic Team Management"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ClipFlip Premium",
+          "description": "Plan for teams and business owners. Start free 14-day trial.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 20.0,
+              "currency": "usd",
+              "features": [
+                "Free multiplayer workspace",
+                "Unlimited Video Recordings",
+                "2-Hour Max Duration",
+                "Simple Video Editing and Trimming",
+                "Share on Gmail, LinkedIn, Facebook, and X",
+                "Tracking and Analytics",
+                "ClipFlip-Branded Video Hosting",
+                "Basic Team Management",
+                "Upload Your Own Videos: Import external video content with simple editing options.",
+                "Logo and Favicon Customization: Personalize your video hosting page with your own logo, colors, and favicon.",
+                "Enhanced Calls-to-Action: Drive engagement with direct website links, contact buttons, and downloadable content.",
+                "Unbranded Video Hosting: Host videos without ClipFlip branding for a professional presentation.",
+                "Automated closed captions, translation, and AI-generated summaries (Coming Soon)"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "annual",
+              "price": 180.0,
+              "currency": "usd",
+              "features": [
+                "Free multiplayer workspace",
+                "Unlimited Video Recordings",
+                "2-Hour Max Duration",
+                "Simple Video Editing and Trimming",
+                "Share on Gmail, LinkedIn, Facebook, and X",
+                "Tracking and Analytics",
+                "ClipFlip-Branded Video Hosting",
+                "Basic Team Management",
+                "Upload Your Own Videos: Import external video content with simple editing options.",
+                "Logo and Favicon Customization: Personalize your video hosting page with your own logo, colors, and favicon.",
+                "Enhanced Calls-to-Action: Drive engagement with direct website links, contact buttons, and downloadable content.",
+                "Unbranded Video Hosting: Host videos without ClipFlip branding for a professional presentation.",
+                "Automated closed captions, translation, and AI-generated summaries (Coming Soon)"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "ClipFlip",
+      "domain": "https://clipflip.com",
+      "source_url": "https://clipflip.com/pricing",
+      "success": true,
+      "content_length": 1317
+    },
+    "PDF Tracking for Gmail Attachment by FeatPaper": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free Plan",
+          "description": "Start free. Share smarter. Track everything. Get full access to essential features with just a sign-up.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Unlimited doc storage",
+                "Unlimited link views",
+                "3 docs shared at once",
+                "Update & duplicate docs",
+                "Viewer input forms",
+                "Embed videos & tools",
+                "Custom branding",
+                "Email & channel pop-ups",
+                "View alerts",
+                "View analytics",
+                "Download restrictions",
+                "Limit viewer access"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "PDF Tracking for Gmail Attachment by FeatPaper",
+      "domain": "https://featpaper.com",
+      "source_url": "https://featpaper.com",
+      "success": true,
+      "content_length": 3884
+    },
+    "Quotes to Excel Job Progress Addon": {
+      "name": "Quotes to Excel Job Progress Addon",
+      "domain": "https://quotesexcel.com",
+      "error": "No pricing pages found",
+      "success": false
+    },
+    "HireCatch Job Fit Analyzer": {
+      "name": "HireCatch Job Fit Analyzer",
+      "domain": "https://hirecatch.io",
+      "error": "No pricing pages found",
+      "success": false
+    },
+    "ResizeChromeWidth": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "TimetableForMobile",
+          "description": "",
+          "pricing_tiers": [
+            {
+              "type": "one_time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 0.99,
+              "currency": "usd",
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Week note 10+",
+          "description": "",
+          "pricing_tiers": [
+            {
+              "type": "one_time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 0.99,
+              "currency": "usd",
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Time note 10+",
+          "description": "",
+          "pricing_tiers": [
+            {
+              "type": "one_time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 0.99,
+              "currency": "usd",
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Timenote 3rd",
+          "description": "",
+          "pricing_tiers": [
+            {
+              "type": "one_time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 0.99,
+              "currency": "usd",
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "CountLifeCost 3rd",
+          "description": "",
+          "pricing_tiers": [
+            {
+              "type": "one_time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 0.99,
+              "currency": "usd",
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "WeekNote 3rd",
+          "description": "",
+          "pricing_tiers": [
+            {
+              "type": "one_time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 0.99,
+              "currency": "usd",
+              "features": []
+            }
+          ]
+        }
+      ],
+      "name": "ResizeChromeWidth",
+      "domain": "https://xxhwangxx.net",
+      "source_url": "https://play.google.com/store/apps/details?id=com.xxhwangxx.MemoInWeek",
+      "success": true,
+      "content_length": 1484
+    },
+    "Bookmark Maestro": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free",
+          "description": "Perfect to get started and organize your bookmarks",
+          "pricing_tiers": [
+            {
+              "type": "one_time",
+              "usage_type": "licensed",
+              "billing_period": "free",
+              "price": 0,
+              "currency": "usd",
+              "features": [
+                "Folder View",
+                "Sorting and Filtering",
+                "Flat View",
+                "Light and Dark Mode",
+                "Create, Move and Delete",
+                "Quick Access Panel"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro Monthly",
+          "description": "For power users who need advanced features",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 1.99,
+              "currency": "usd",
+              "features": [
+                "Folder View",
+                "Sorting and Filtering",
+                "Flat View",
+                "Light and Dark Mode",
+                "Create, Move and Delete",
+                "Quick Access Panel",
+                "Batch Editing",
+                "Import and Export",
+                "Link Health Testing",
+                "Insights",
+                "Bookmark Doctor",
+                "Priority support"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro Yearly",
+          "description": "For power users who need advanced features",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 9.99,
+              "currency": "usd",
+              "features": [
+                "Folder View",
+                "Sorting and Filtering",
+                "Flat View",
+                "Light and Dark Mode",
+                "Create, Move and Delete",
+                "Quick Access Panel",
+                "Batch Editing",
+                "Import and Export",
+                "Link Health Testing",
+                "Insights",
+                "Bookmark Doctor",
+                "Priority support"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro Lifetime",
+          "description": "For power users who need advanced features",
+          "pricing_tiers": [
+            {
+              "type": "one_time",
+              "usage_type": "licensed",
+              "billing_period": "lifetime",
+              "price": 29.99,
+              "currency": "usd",
+              "features": [
+                "Folder View",
+                "Sorting and Filtering",
+                "Flat View",
+                "Light and Dark Mode",
+                "Create, Move and Delete",
+                "Quick Access Panel",
+                "Batch Editing",
+                "Import and Export",
+                "Link Health Testing",
+                "Insights",
+                "Bookmark Doctor",
+                "Priority support"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Bookmark Maestro",
+      "domain": "https://bookmark-maestro.com",
+      "source_url": "https://bookmark-maestro.com/pricing",
+      "success": true,
+      "content_length": 863
+    },
+    "Equibrah - PokerNow HUD, Calculator, and more!": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free Tier",
+          "description": "All users now get access to limited HUD stats, pre-flop equity calculations, plus a handful of credits, all at no cost.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "limited HUD stats",
+                "pre-flop equity calculations",
+                "handful of credits"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Equibrah - PokerNow HUD, Calculator, and more!",
+      "domain": "https://www.equibrah.com/",
+      "source_url": "https://chromewebstore.google.com/detail/equibrah-pokernow-hud-cal/hkbpldggbieinphjhpodllehaljlhffc",
+      "success": true,
+      "content_length": 8690
+    },
+    "Mercari Scraper: Export Search, Listings, Sellers & more": {
+      "name": "Mercari Scraper: Export Search, Listings, Sellers & more",
+      "domain": "https://nifty.codes",
+      "error": "All URLs failed to yield valid pricing data",
+      "attempted_urls": [
+        "https://nifty.codes",
+        "https://nifty.codes/",
+        "https://nifty.codes/e/tokopedia-scraper",
+        "https://nifty.codes/e/skyscanner-scraper",
+        "https://nifty.codes/e/mercari-scraper"
+      ],
+      "success": false
+    },
+    "LeadEpic – LinkedIn Automated Lead Research + Content Generation": {
+      "name": "LeadEpic – LinkedIn Automated Lead Research + Content Generation",
+      "domain": "https://leadepic.io",
+      "error": "No pricing pages found",
+      "success": false
+    },
+    "Sentence Rephraser and Grammar Corrector": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free Plan",
+          "description": "Free access to all features via Chrome extension.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Smart Rephrasing",
+                "Grammar Correction",
+                "Style Improvement",
+                "Text Shortening",
+                "50+ Language Translation",
+                "One-Click Shortcuts"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Sentence Rephraser and Grammar Corrector",
+      "domain": "https://sentencefix.com",
+      "source_url": "https://sentencefix.com",
+      "success": true,
+      "content_length": 2058
+    },
+    "ChatGpt Россия": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Token for 90 days",
+          "description": "Token valid for 90 days from activation, sent to email after payment.",
+          "pricing_tiers": [
+            {
+              "type": "one_time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": null,
+              "currency": "usd",
+              "features": [
+                "Token access",
+                "90 days validity",
+                "Email delivery"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "ChatGpt Россия",
+      "domain": "https://ruchatgpt.site/",
+      "source_url": "https://ruchatgpt.site/token.html",
+      "success": true,
+      "content_length": 305
+    },
+    "Tabion - tab manager": {
+      "name": "Tabion - tab manager",
+      "domain": "https://tabion.io",
+      "error": "No pricing pages found",
+      "success": false
+    },
+    "tpsmydata TPS & CTPS Checker": {
+      "currency": "gbp",
+      "plans": [
+        {
+          "name": "Free Trial",
+          "description": "Register now and get 250 free credits to test",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 0.0,
+              "currency": "gbp",
+              "features": [
+                "250 free credits",
+                "TPS & CTPS checks",
+                "Number Intelligence",
+                "Speed",
+                "Support",
+                "Easy to Use",
+                "Secure"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unlimited TPS Checking",
+          "description": "Monthly unlimited accounts subject to fair use policy",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 99.0,
+              "currency": "gbp",
+              "features": [
+                "TPS & CTPS checks included",
+                "Unlimited TPS Checking",
+                "Number Intelligence",
+                "Speed",
+                "Support",
+                "Easy to Use",
+                "Secure"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pay-as-you-go Credits",
+          "description": "Buy credits to check telephone numbers against TPS & CTPS",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 5.0,
+              "currency": "gbp",
+              "credits": 1000,
+              "cost_per_k": 5.0,
+              "cost_per_number": 0.005,
+              "features": [
+                "TPS & CTPS checks",
+                "Number Intelligence",
+                "Speed",
+                "Support",
+                "Easy to Use",
+                "Secure"
+              ]
+            },
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 20.0,
+              "currency": "gbp",
+              "credits": 5000,
+              "cost_per_k": 4.0,
+              "cost_per_number": 0.004,
+              "features": [
+                "TPS & CTPS checks",
+                "Number Intelligence",
+                "Speed",
+                "Support",
+                "Easy to Use",
+                "Secure"
+              ]
+            },
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 30.0,
+              "currency": "gbp",
+              "credits": 10000,
+              "cost_per_k": 3.0,
+              "cost_per_number": 0.003,
+              "features": [
+                "TPS & CTPS checks",
+                "Number Intelligence",
+                "Speed",
+                "Support",
+                "Easy to Use",
+                "Secure"
+              ]
+            },
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 100.0,
+              "currency": "gbp",
+              "credits": 50000,
+              "cost_per_k": 2.0,
+              "cost_per_number": 0.002,
+              "features": [
+                "TPS & CTPS checks",
+                "Number Intelligence",
+                "Speed",
+                "Support",
+                "Easy to Use",
+                "Secure"
+              ]
+            },
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 150.0,
+              "currency": "gbp",
+              "credits": 100000,
+              "cost_per_k": 1.5,
+              "cost_per_number": 0.0015,
+              "features": [
+                "TPS & CTPS checks",
+                "Number Intelligence",
+                "Speed",
+                "Support",
+                "Easy to Use",
+                "Secure"
+              ]
+            },
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 500.0,
+              "currency": "gbp",
+              "credits": 500000,
+              "cost_per_k": 1.0,
+              "cost_per_number": 0.001,
+              "features": [
+                "TPS & CTPS checks",
+                "Number Intelligence",
+                "Speed",
+                "Support",
+                "Easy to Use",
+                "Secure"
+              ]
+            },
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 600.0,
+              "currency": "gbp",
+              "credits": 1000000,
+              "cost_per_k": 0.6,
+              "cost_per_number": 0.0006,
+              "features": [
+                "TPS & CTPS checks",
+                "Number Intelligence",
+                "Speed",
+                "Support",
+                "Easy to Use",
+                "Secure"
+              ]
+            },
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 1500.0,
+              "currency": "gbp",
+              "credits": 5000000,
+              "cost_per_k": 0.3,
+              "cost_per_number": 0.0003,
+              "features": [
+                "TPS & CTPS checks",
+                "Number Intelligence",
+                "Speed",
+                "Support",
+                "Easy to Use",
+                "Secure"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "tpsmydata TPS & CTPS Checker",
+      "domain": "https://tpsmydata.co.uk/",
+      "source_url": "https://tpsmydata.co.uk#pricing",
+      "success": true,
+      "content_length": 5009
+    },
+    "DailyLauncher: Custom New Tab Startpage": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "DailyLauncher",
+          "description": "A visual organizer for bookmarks. Never lose your links again! Drag and drop Unlimited designs from links, bookmarks, and images.",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Drag and drop",
+                "Unlimited designs from links, bookmarks, and images"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "DailyLauncher: Custom New Tab Startpage",
+      "domain": "https://dailylauncher.com",
+      "source_url": "https://dailylauncher.com",
+      "success": true,
+      "content_length": 237
+    },
+    "Skeleton Loader AI": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free Plan",
+          "description": "You are currently on the free plan.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Starter Plan",
+          "description": "Perfect for small businesses.",
+          "pricing_tiers": []
+        },
+        {
+          "name": "Pro Plan",
+          "description": "More features and storage.",
+          "pricing_tiers": []
+        }
+      ],
+      "name": "Skeleton Loader AI",
+      "domain": "https://skeletonloader.dev",
+      "source_url": "https://ui.shadcn.com",
+      "success": true,
+      "content_length": 2982
+    },
+    "ezSafer": {
+      "name": "ezSafer",
+      "domain": "https://ezsafer.app",
+      "error": "No pricing pages found",
+      "success": false
+    },
+    "AtomAI: Study Helper with GPT-5": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Limited Free Plan",
+          "description": "Try out our features to see if they fit your needs.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Unlimited Ask AI credits",
+                "Unlimited Question Scan credits",
+                "1 PDF Upload",
+                "Bypass AI Detection",
+                "Ultra AI",
+                "Ad-Free Experience",
+                "Faster Response Times",
+                "Priority Email Support"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Premium Plan",
+          "description": "Our most popular plan with all features unlocked. Billed yearly.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 60.0,
+              "currency": "usd",
+              "features": [
+                "Unlimited Ask AI credits",
+                "Unlimited Question Scan credits",
+                "Bypass AI Detection",
+                "500 Ultra AI credits per month",
+                "PDF Upload",
+                "Ad-Free Experience",
+                "2x Faster Response Times",
+                "Priority Email Support"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Monthly Plan",
+          "description": "Pay month to month with no commitment.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 8.0,
+              "currency": "usd",
+              "features": [
+                "Unlimited Ask AI credits",
+                "Unlimited Question Scan credits",
+                "Bypass AI Detection",
+                "500 Ultra AI credits per month",
+                "PDF Upload",
+                "Ad-Free Experience",
+                "Faster Response Times",
+                "Priority Email Support"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "AtomAI: Study Helper with GPT-5",
+      "domain": "https://getatom.ai",
+      "source_url": "https://getatom.ai/pricing",
+      "success": true,
+      "content_length": 1264
+    },
+    "EZWrite": {
+      "name": "EZWrite",
+      "domain": "https://ezwrite.xyz",
+      "error": "No pricing pages found",
+      "success": false
+    },
+    "NoCodePlus - Component library for Bubble.io": {
+      "name": "NoCodePlus - Component library for Bubble.io",
+      "domain": "https://nocodeplus.io",
+      "error": "No pricing pages found",
+      "success": false
+    },
+    "EventLibrary": {
+      "name": "EventLibrary",
+      "domain": "https://eventlibrary.io",
+      "error": "No pricing pages found",
+      "success": false
+    },
+    "Lemlinks - Link Discovery Made Easy": {
+      "name": "Lemlinks - Link Discovery Made Easy",
+      "domain": "https://pearllemongroup.com/",
+      "error": "All URLs failed to yield valid pricing data",
+      "attempted_urls": [
+        "https://pearllemongroup.com/",
+        "https://pearllemongroup.com/all-services/",
+        "https://pearllemongroup.com/digital-marketing-services/",
+        "https://pearllemongroup.com/seo-services-in-dubai/",
+        "https://pearllemongroup.com/ppc-management-services-in-dubai/"
+      ],
+      "success": false
+    },
+    "Browser Commands": {
+      "name": "Browser Commands",
+      "domain": "https://browsercommands.com",
+      "error": "No pricing pages found",
+      "success": false
+    },
+    "IQRush Browser Extension": {
+      "name": "IQRush Browser Extension",
+      "domain": "https://iqrush.ai",
+      "error": "All URLs failed to yield valid pricing data",
+      "attempted_urls": [
+        "https://iqrush.ai",
+        "https://iqrush.ai/join-waitlist/",
+        "https://iqrush.ai/portfolio/"
+      ],
+      "success": false
+    },
+    "QuickStyle": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free Version",
+          "description": "Perfect for basic styling needs!",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "2000 Tokens",
+                "Basic Styling Tools",
+                "Color Customization",
+                "Text Styling",
+                "position Options",
+                "Sizing Options",
+                "Flexbox Layout",
+                "Hover Effects Customization",
+                "Border Styling Options"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Style With AI Premium Version",
+          "description": "Build with unlimited features!",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 7.99,
+              "currency": "usd",
+              "features": [
+                "Basic Styling Tools",
+                "Color Customization",
+                "Text Styling",
+                "position Options",
+                "Sizing Options",
+                "Flexbox Layout",
+                "Hover Effects Customization",
+                "Border Styling Options",
+                "All Presets / Animations",
+                "AI Style Generator",
+                "Unlimited tokens",
+                "Merge Styles",
+                "Priority Support",
+                "Early Access to New Features"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "QuickStyle",
+      "domain": "https://quick-style.netlify.app/",
+      "source_url": "https://quick-style.netlify.app/",
+      "success": true,
+      "content_length": 813
+    },
+    "EnlighterAI": {
+      "name": "EnlighterAI",
+      "domain": "https://enlighterai.com",
+      "error": "No pricing pages found",
+      "success": false
+    },
+    "UtterX AI Assistant": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "FREE",
+          "description": "Power of UtterX on a budget",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Access to thousands of experiences created by our community",
+                "Limited access to creating new experiences",
+                "Earn credits when you share useful Utters",
+                "Ad-supported experience"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "UtterX AI Assistant",
+      "domain": "https://utterx.com",
+      "source_url": "https://utterx.com",
+      "success": true,
+      "content_length": 6834
+    },
+    "Backs": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free",
+          "description": "The core functionality of Backs is completely free, allowing you to create a personalized new tab dashboard with adaptive widgets.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Clocks",
+                "Bookmarks",
+                "Weather",
+                "Pomodoro Timer",
+                "Task List",
+                "Notes",
+                "Decorative Widgets",
+                "Unsplash Backgrounds"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Backs",
+      "domain": "https://backs-extension.com/",
+      "source_url": "https://backs-extension.com/",
+      "success": true,
+      "content_length": 5491
+    },
+    "Klemo.co": {
+      "name": "Klemo.co",
+      "domain": "https://klemo.co",
+      "error": "No pricing pages found",
+      "success": false
+    },
+    "Desko AI": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "FREE",
+          "description": "FREE forever Perfect for trying out Desko AI",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0,
+              "currency": "usd",
+              "features": [
+                "5 AI-generated emails/day",
+                "Basic email templates",
+                "Standard tone adaptation",
+                "Gmail & Outlook integration",
+                "Community support"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Starter",
+          "description": "Great for individual sales professionals",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 19,
+              "currency": "usd",
+              "features": [
+                "25 AI-generated emails/day",
+                "Advanced email templates",
+                "Context-aware responses",
+                "Email scheduling",
+                "CRM integrations",
+                "Priority support"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Professional",
+          "description": "Advanced features for sales teams",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 49,
+              "currency": "usd",
+              "features": [
+                "200 AI-generated emails/day",
+                "Advanced context analysis",
+                "Meeting transcript integration",
+                "Custom tone profiles",
+                "Advanced CRM integrations",
+                "Team collaboration tools",
+                "Analytics & reporting"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "description": "Custom pricing for large organizations Unlock the full potential of AI-powered sales communication with our enterprise solution. Get custom integrations, dedicated support, and unlimited scale.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0,
+              "currency": "usd",
+              "features": [
+                "Unlimited everything",
+                "Custom AI model training",
+                "Enterprise Security",
+                "Dedicated account manager",
+                "Custom integrations",
+                "White-label options",
+                "SLA guarantees",
+                "On-premise deployment"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Desko AI",
+      "domain": "https://desko.ai",
+      "source_url": "https://desko.ai/#pricing",
+      "success": true,
+      "content_length": 3836
+    },
+    "OneMark": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free",
+          "description": "Perfect for getting started",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": "one-time",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Unlimited searchable marks",
+                "Unlimited collections",
+                "5GB storage space",
+                "Restrict the upload of files",
+                "Browser extension",
+                "Community support"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro",
+          "description": "For power users who want more",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 4.49,
+              "currency": "usd",
+              "features": [
+                "Everything in Free",
+                "100GB storage space",
+                "More open file upload restrictions",
+                "Automatically organize marks",
+                "Priority support",
+                "Early access to features",
+                "14-Day Free Trial"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 4.041,
+              "currency": "usd",
+              "features": [
+                "10% off for the first three months (discount code: QI8LQPYP0I)",
+                "Everything in Free",
+                "100GB storage space",
+                "More open file upload restrictions",
+                "Automatically organize marks",
+                "Priority support",
+                "Early access to features",
+                "14-Day Free Trial"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "OneMark",
+      "domain": "https://onemark.xyz",
+      "source_url": "https://onemark.xyz/#pricing",
+      "success": true,
+      "content_length": 2413
+    },
+    "ShadowSelf": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Subscription Plan",
+          "description": "Monthly, annually, or lifetime subscription for privacy tools including synthetic identities, email, phone, payment, and VPN services.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 4.99,
+              "currency": "usd",
+              "features": [
+                "Personal Attributes",
+                "Email Address",
+                "Phone Number",
+                "Virtual Card",
+                "VPN Access",
+                "Account Management",
+                "14 Day Refund",
+                "24/7 Support"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "ShadowSelf",
+      "domain": "https://shadowself.io",
+      "source_url": "https://shadowself.io/",
+      "success": true,
+      "content_length": 4736
+    },
+    "Media Hint": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "FREE",
+          "description": "Get your FREE trial for 7 days",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Annual",
+          "description": "12 months for the price of 10 Save $7.90",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "annual",
+              "price": 39.5,
+              "currency": "usd",
+              "features": []
+            }
+          ]
+        },
+        {
+          "name": "Monthly",
+          "description": "Renews every month Cancel anytime",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 3.95,
+              "currency": "usd",
+              "features": []
+            }
+          ]
+        }
+      ],
+      "name": "Media Hint",
+      "domain": "http://mediahint.com/",
+      "source_url": "https://mediahint.com/pricing",
+      "success": true,
+      "content_length": 1022
+    },
+    "Ellie: Your Professional AI Email Assistant": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Personal use Casual",
+          "description": "For people who are overwhelmed with emails and need help. 7 day free trial. No credit card required",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 19.0,
+              "currency": "usd",
+              "features": [
+                "Extension powered Ellie works as a browser extension allowing you to generate replies within Gmail, Outlook web and Fastmail",
+                "25 replies a day",
+                "Intelligent AI model",
+                "Email training (up to 200 previous sent emails)",
+                "Basic Knowledge base training",
+                "Roles"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "For Teams Business",
+          "description": "For small teams who live in their inboxes sending many emails a day",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 39.0,
+              "currency": "usd",
+              "features": [
+                "Direct integration",
+                "100 replies a day",
+                "Intelligent AI model",
+                "Email training (up to 1000 previous sent emails)",
+                "Advanced Knowledge base training",
+                "Auto-draft",
+                "Auto-categorise",
+                "Roles",
+                "Team sharing",
+                "3 Seats included",
+                "1 connected account per user",
+                "Email support"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Professional",
+          "description": "For large teams and enterprise sending hundreds of emails a day",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 79.0,
+              "currency": "usd",
+              "features": [
+                "Direct integration",
+                "∞ replies a day",
+                "Intelligent AI model (fine-tuned with email archive)",
+                "Email training (with email archive)",
+                "Advanced Knowledge base training",
+                "Roles",
+                "Team sharing",
+                "5 Seats included",
+                "Additional seats available to purchase",
+                "3 connected accounts per user",
+                "Priority support"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Ellie: Your Professional AI Email Assistant",
+      "domain": "https://tryellie.com",
+      "source_url": "https://tryellie.com/pricing/",
+      "success": true,
+      "content_length": 4082
+    },
+    "Conclave": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Conclave",
+          "description": "An online RPG with the story and turn-based combat of a classic fantasy tabletop campaign. Play a party of up to four characters solo, or co-op with other players. Adventure together in real time, or take turns at your leisure.",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": "one-time",
+              "price": 5.49,
+              "currency": "usd",
+              "features": [
+                "Single-player",
+                "Online Co-op",
+                "Cross-Platform Multiplayer",
+                "Family Sharing",
+                "Requires 3rd-Party Account: Conclave Account"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Conclave Soundtrack",
+          "description": "",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": "one-time",
+              "price": 2.49,
+              "currency": "usd",
+              "features": []
+            }
+          ]
+        }
+      ],
+      "name": "Conclave",
+      "domain": "http://playconclave.com/",
+      "source_url": "http://store.steampowered.com/app/333990",
+      "success": true,
+      "content_length": 5913
+    },
+    "Ginee Chat - Multi Messenger for all Channels": {
+      "currency": "THB",
+      "plans": [
+        {
+          "name": "Pro",
+          "description": "Basic plan for small businesses with Ginee OMS included",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "THB",
+              "features": [
+                "Monthly Order Ginee OMS: 10,000",
+                "Yearly Order Ginee OMS: 120,000",
+                "Max Store: 10",
+                "MSKU: 10,000",
+                "Sub Account: 5",
+                "Order Management",
+                "Product Management",
+                "Stock Management",
+                "Purchase & Supplier Management",
+                "Reporting",
+                "Multi-Warehouse Management",
+                "Third Party Integration",
+                "Ginee OMS Open API",
+                "10 x Consignor Accounts (Business)",
+                "Customization",
+                "Customization",
+                "Ginee Chat",
+                "Free Integration up to 20 Stores",
+                "Additional x 10,000 Ginee OMS Orders",
+                "Additional x 5 Staff Accounts",
+                "Additional x 10 Stores",
+                "Additional x 5 Consignor Accounts"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Business",
+          "description": "Plan for growing businesses with Ginee OMS included",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "THB",
+              "features": [
+                "Monthly Order Ginee OMS: 30,000",
+                "Yearly Order Ginee OMS: 360,000",
+                "Max Store: 100",
+                "MSKU: 30,000",
+                "Sub Account: 20",
+                "Order Management",
+                "Product Management",
+                "Stock Management",
+                "Purchase & Supplier Management",
+                "Reporting",
+                "Multi-Warehouse Management",
+                "Third Party Integration",
+                "Ginee OMS Open API",
+                "10 x Consignor Accounts (Business)",
+                "Customization",
+                "Customization",
+                "Ginee Chat",
+                "Free Integration up to 20 Stores",
+                "Additional x 10,000 Ginee OMS Orders",
+                "Additional x 5 Staff Accounts",
+                "Additional x 10 Stores",
+                "Additional x 5 Consignor Accounts"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ginee Plus",
+          "description": "Advanced plan with Ginee OMS and WMS included",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "THB",
+              "features": [
+                "Monthly Order Ginee OMS: Unlimited",
+                "Yearly Order Ginee OMS: Unlimited",
+                "Monthly Order Ginee WMS: 50,000",
+                "Yearly Order Ginee WMS: 600,000",
+                "Max Store: Unlimited",
+                "MSKU: Unlimited",
+                "Sub Account: Unlimited",
+                "Order Management",
+                "Product Management",
+                "Stock Management",
+                "Purchase & Supplier Management",
+                "Reporting",
+                "Multi-Warehouse Management",
+                "Third Party Integration",
+                "Ginee OMS Open API",
+                "Inbound Management",
+                "Outbound Management",
+                "Wave Shipping",
+                "Stock/Location Transfer",
+                "Smart Replenishment",
+                "FIFO/FEFO",
+                "PDA/APP",
+                "Service Provider Management",
+                "Services to External Brands",
+                "10 x Consignor Accounts (Business)",
+                "Customization",
+                "Customization",
+                "Ginee Chat",
+                "Free Integration up to 20 Stores",
+                "Additional x 10,000 Ginee OMS Orders",
+                "Additional x 5 Staff Accounts",
+                "Additional x 10 Stores",
+                "Additional x 10,000 Ginee WMS Orders",
+                "Additional x 5 Consignor Accounts"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "description": "Enterprise plan with full Ginee OMS and WMS included",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "THB",
+              "features": [
+                "Monthly Order Ginee OMS: Unlimited",
+                "Yearly Order Ginee OMS: Unlimited",
+                "Monthly Order Ginee WMS: 100,000",
+                "Yearly Order Ginee WMS: 1,200,000",
+                "Max Store: Unlimited",
+                "MSKU: Unlimited",
+                "Sub Account: Unlimited",
+                "Order Management",
+                "Product Management",
+                "Stock Management",
+                "Purchase & Supplier Management",
+                "Reporting",
+                "Multi-Warehouse Management",
+                "Third Party Integration",
+                "Ginee OMS Open API",
+                "Inbound Management",
+                "Outbound Management",
+                "Wave Shipping",
+                "Stock/Location Transfer",
+                "Smart Replenishment",
+                "FIFO/FEFO",
+                "PDA/APP",
+                "Service Provider Management",
+                "Services to External Brands",
+                "10 x Consignor Accounts (Business)",
+                "Customization",
+                "Customization",
+                "Ginee Chat",
+                "Free Integration up to 20 Stores",
+                "Additional x 10,000 Ginee OMS Orders",
+                "Additional x 5 Staff Accounts",
+                "Additional x 10 Stores",
+                "Additional x 10,000 Ginee WMS Orders",
+                "Additional x 5 Consignor Accounts"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Ginee Chat - Multi Messenger for all Channels",
+      "domain": "https://ginee.com",
+      "source_url": "https://ginee.com/zh-CN/th/pricing/",
+      "success": true,
+      "content_length": 5517
+    },
+    "TG Downloader | Photos, Videos, Audios": {
+      "name": "TG Downloader | Photos, Videos, Audios",
+      "domain": "https://extbolt.com",
+      "error": "All URLs failed to yield valid pricing data",
+      "attempted_urls": [
+        "https://extbolt.com/",
+        "https://extbolt.com"
+      ],
+      "success": false
+    },
+    "Patreon Scraper: Export Search, Users, Posts & more": {
+      "name": "Patreon Scraper: Export Search, Users, Posts & more",
+      "domain": "https://nifty.codes",
+      "error": "All URLs failed to yield valid pricing data",
+      "attempted_urls": [
+        "https://nifty.codes/"
+      ],
+      "success": false
+    },
+    "Interactive Business Planning by BizGym®": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Sculpt Success Free",
+          "description": "Visualize Your Future Validate your concept through a financial forecast in just minutes. No need to be a spreadsheet expert. Just add numbers to see your concept come to life. See Charts Real-time Charts & Reports empower your team to visually shape a project or concept. Sign Up Free! No credit card required. Upgrade your membership to download presentation-ready Charts and Reports.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Enter Numbers",
+                "See Charts",
+                "Real-time Charts & Reports",
+                "Empower your team to sculpt success without being a spreadsheet jockey"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Interactive Business Planning by BizGym®",
+      "domain": "http://bizgym.com/",
+      "source_url": "http://bizgym.com/",
+      "success": true,
+      "content_length": 2199
+    },
+    "Fabric web clipper – save anything from the web": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free",
+          "description": "Fabric is your second brain. The all-in-one AI workspace for all your projects, ideas, files, notes & links.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0,
+              "currency": "usd",
+              "features": [
+                "Create notes, save links & files",
+                "250MB storage space",
+                "10MB file upload",
+                "100 thinking credits / month",
+                "Sync across your devices",
+                "Powerful AI search",
+                "AI assistant",
+                "Cloud backup & encryption",
+                "Sharing",
+                "Publishing",
+                "AI document editor"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Basic",
+          "description": "Fabric is your second brain. The all-in-one AI workspace for all your projects, ideas, files, notes & links.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 5,
+              "currency": "usd",
+              "features": [
+                "Everything in Free, plus:",
+                "50GB storage space",
+                "50MB file upload",
+                "500 thinking credits / month",
+                "AI voice & meeting recording",
+                "Audio & video transcription",
+                "AI suggestions"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 56,
+              "currency": "usd",
+              "features": [
+                "Everything in Free, plus:",
+                "50GB storage space",
+                "50MB file upload",
+                "500 thinking credits / month",
+                "AI voice & meeting recording",
+                "Audio & video transcription",
+                "AI suggestions"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro",
+          "description": "Fabric is your second brain. The all-in-one AI workspace for all your projects, ideas, files, notes & links.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 12.5,
+              "currency": "usd",
+              "features": [
+                "Everything in Basic, plus:",
+                "2TB storage space",
+                "5GB file upload",
+                "1,500 thinking credits / month",
+                "Data connections",
+                "Access to all the top AI models",
+                "Try pre-release features first"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 150,
+              "currency": "usd",
+              "features": [
+                "Everything in Basic, plus:",
+                "2TB storage space",
+                "5GB file upload",
+                "1,500 thinking credits / month",
+                "Data connections",
+                "Access to all the top AI models",
+                "Try pre-release features first"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Fabric web clipper – save anything from the web",
+      "domain": "https://fabric.so",
+      "source_url": "https://fabric.so/pricing-and-plans",
+      "success": true,
+      "content_length": 3709
+    },
+    "Contivio.com": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "5-50 Users",
+          "description": "Enterprise Suite for 5-50 users $99 Per User Per Month 10% discount on annual plans Contact Sales",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 99.0,
+              "currency": "usd",
+              "features": [
+                "Blended Inbound and Outbound Communication",
+                "CRM Screen - Popping on Any Criteria",
+                "Live Chat & Chatbots",
+                "CRM Power Dialer",
+                "Complete Telephony Controls",
+                "Easy Toolbar Deployment",
+                "Multichannel",
+                "Automated CRM Updates",
+                "IVR and SMS Broadcast Campaigns",
+                "Stand-Alone PBX",
+                "Supervisor Monitoring and Reporting",
+                "Unlimited Choice VOIP, PSTN & CRM",
+                "Patent-protected CloudConnect",
+                "Global & Security"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 1069.2,
+              "currency": "usd",
+              "features": [
+                "Blended Inbound and Outbound Communication",
+                "CRM Screen - Popping on Any Criteria",
+                "Live Chat & Chatbots",
+                "CRM Power Dialer",
+                "Complete Telephony Controls",
+                "Easy Toolbar Deployment",
+                "Multichannel",
+                "Automated CRM Updates",
+                "IVR and SMS Broadcast Campaigns",
+                "Stand-Alone PBX",
+                "Supervisor Monitoring and Reporting",
+                "Unlimited Choice VOIP, PSTN & CRM",
+                "Patent-protected CloudConnect",
+                "Global & Security"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "51-99 Users",
+          "description": "Enterprise Suite for 51-99 users $89 Per User Per Month 10% discount on annual plans Contact Sales",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 89.0,
+              "currency": "usd",
+              "features": [
+                "Blended Inbound and Outbound Communication",
+                "CRM Screen - Popping on Any Criteria",
+                "Live Chat & Chatbots",
+                "CRM Power Dialer",
+                "Complete Telephony Controls",
+                "Easy Toolbar Deployment",
+                "Multichannel",
+                "Automated CRM Updates",
+                "IVR and SMS Broadcast Campaigns",
+                "Stand-Alone PBX",
+                "Supervisor Monitoring and Reporting",
+                "Unlimited Choice VOIP, PSTN & CRM",
+                "Patent-protected CloudConnect",
+                "Global & Security"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 961.2,
+              "currency": "usd",
+              "features": [
+                "Blended Inbound and Outbound Communication",
+                "CRM Screen - Popping on Any Criteria",
+                "Live Chat & Chatbots",
+                "CRM Power Dialer",
+                "Complete Telephony Controls",
+                "Easy Toolbar Deployment",
+                "Multichannel",
+                "Automated CRM Updates",
+                "IVR and SMS Broadcast Campaigns",
+                "Stand-Alone PBX",
+                "Supervisor Monitoring and Reporting",
+                "Unlimited Choice VOIP, PSTN & CRM",
+                "Patent-protected CloudConnect",
+                "Global & Security"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "100+ Users",
+          "description": "Enterprise Suite for 100+ users $79 Per User Per Month 10% discount on annual plans Contact Sales",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 79.0,
+              "currency": "usd",
+              "features": [
+                "Blended Inbound and Outbound Communication",
+                "CRM Screen - Popping on Any Criteria",
+                "Live Chat & Chatbots",
+                "CRM Power Dialer",
+                "Complete Telephony Controls",
+                "Easy Toolbar Deployment",
+                "Multichannel",
+                "Automated CRM Updates",
+                "IVR and SMS Broadcast Campaigns",
+                "Stand-Alone PBX",
+                "Supervisor Monitoring and Reporting",
+                "Unlimited Choice VOIP, PSTN & CRM",
+                "Patent-protected CloudConnect",
+                "Global & Security"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 853.2,
+              "currency": "usd",
+              "features": [
+                "Blended Inbound and Outbound Communication",
+                "CRM Screen - Popping on Any Criteria",
+                "Live Chat & Chatbots",
+                "CRM Power Dialer",
+                "Complete Telephony Controls",
+                "Easy Toolbar Deployment",
+                "Multichannel",
+                "Automated CRM Updates",
+                "IVR and SMS Broadcast Campaigns",
+                "Stand-Alone PBX",
+                "Supervisor Monitoring and Reporting",
+                "Unlimited Choice VOIP, PSTN & CRM",
+                "Patent-protected CloudConnect",
+                "Global & Security"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Stand-alone PBX",
+          "description": "Stand-alone PBX add-ons available at a discounted rate of $20 monthly per user (includes mobile app & softphone)",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 20.0,
+              "currency": "usd",
+              "features": [
+                "mobile app",
+                "softphone"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Contivio.com",
+      "domain": "http://www.contivio.com/",
+      "source_url": "https://www.contivio.com/pricing/",
+      "success": true,
+      "content_length": 4916
+    },
+    "Wildhero - Eco-friendly Email": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "TreeCard Debit Card",
+          "description": "A Mastercard debit card that plants trees based on your steps and ethical purchases. Earn rewards like green tech vouchers and planet-friendly experiences.",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Free sign-up",
+                "Plant trees with steps",
+                "Earn points for ethical purchases",
+                "Earn $100+ green tech vouchers",
+                "Planet-friendly rewards",
+                "No annual fees mentioned"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Wildhero - Eco-friendly Email",
+      "domain": "https://treecard.org",
+      "source_url": "https://treecard.org/",
+      "success": true,
+      "content_length": 10816
+    },
+    "DataMask": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Single user license",
+          "description": "Paid single user license",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 29.99,
+              "currency": "usd",
+              "features": [
+                "Automatic scramble and blur",
+                "Website viewport screenshot",
+                "Basic online screenshot editor",
+                "HTML element screenshot",
+                "Control what gets blurred",
+                "Control what gets scrambled",
+                "Advanced blur+ for secure data masking",
+                "Free draw blur rectangles",
+                "Edit website text",
+                "Remove website elements"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Free license",
+          "description": "Free version",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Automatic scramble and blur",
+                "Website viewport screenshot",
+                "Basic online screenshot editor",
+                "HTML element screenshot",
+                "Control what gets blurred",
+                "Control what gets scrambled",
+                "Advanced blur+ for secure data masking",
+                "Free draw blur rectangles",
+                "Edit website text",
+                "Remove website elements"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "DataMask",
+      "domain": "https://datamask.tech",
+      "source_url": "https://datamask.tech/#pricing",
+      "success": true,
+      "content_length": 645
+    },
+    "IP-Alert by Seller Assistant": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free Plan",
+          "description": "Minimize your risks of getting IP complaints on Amazon with IP-Alert by Seller Assistant. Proactively identify if a product can trigger IP complaints. Available on the free plan.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Avoid IP Complaints",
+                "Stay Informed about Problematic Products",
+                "Comprehensive IP Claims Database",
+                "Look up product issues by category",
+                "Obtain data updated automatically and daily",
+                "Get warnings for free",
+                "IP-Alert on the Amazon Product Page showing red triangle icon for account health issues",
+                "Supported on multiple Amazon marketplaces (COM, CA, COM.MX, BR, CO.UK, DE, FR, ES, IT, NL, PL, SE, TR, IN, AE, SA, EG, JP, COM.AU, SG)"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "IP-Alert by Seller Assistant",
+      "domain": "https://ip-alert.com",
+      "source_url": "https://ip-alert.com",
+      "success": true,
+      "content_length": 3164
+    },
+    "New Tab Page Extension": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free",
+          "description": "Free Ride Access Almost Everything Enjoy nearly all widgets and core features! Signed-in users Unlock even more features Sign-in is free!",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Enjoy nearly all widgets and core features",
+                "Unlock even more features",
+                "Sign-in is free"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Supporter",
+          "description": "50 Extra Votes Each Month Influence feature roadmap Priority Email Support Get answers & fixes faster! Massive Discounts on future premium features",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 3.75,
+              "currency": "usd",
+              "features": [
+                "50 Extra Votes Each Month",
+                "Influence feature roadmap",
+                "Priority Email Support",
+                "Get answers & fixes faster",
+                "Massive Discounts on future premium features"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "6 months",
+              "price": 18.0,
+              "currency": "usd",
+              "features": [
+                "50 Extra Votes Each Month",
+                "Influence feature roadmap",
+                "Priority Email Support",
+                "Get answers & fixes faster",
+                "Massive Discounts on future premium features"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "annual",
+              "price": 29.25,
+              "currency": "usd",
+              "features": [
+                "50 Extra Votes Each Month",
+                "Influence feature roadmap",
+                "Priority Email Support",
+                "Get answers & fixes faster",
+                "Massive Discounts on future premium features"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "New Tab Page Extension",
+      "domain": "https://presentboard.app",
+      "source_url": "https://presentboard.app/pricing",
+      "success": true,
+      "content_length": 672
+    },
+    "Selectext: Copy Text from Videos": {
+      "name": "Selectext: Copy Text from Videos",
+      "domain": "https://selectext.app",
+      "error": "All URLs failed to yield valid pricing data",
+      "attempted_urls": [
+        "https://selectext.app",
+        "https://selectext.app/pricing"
+      ],
+      "success": false
+    },
+    "NOKA FUT FC 25": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "PREMIUM",
+          "description": "Nokafut is completely free, but some features have cost a lot to develop, which is why some things are paid. By taking the PREMIUM version, you collaborate with the developer to keep improving the extension. To have this version, you must go to the PREMIUM section of the extension. For now, payment is only available via PayPal for browsers and Card for the iOS App. To activate your PREMIUM account (browser), you must add your payment profile ID code (I-XXXXXXXX) in the PREMIUM section. Never share this code, it's your key. You can use your PREMIUM on more than one account but only one at a time. NOKAFUT is a subscription. When you buy Nokafut, you buy a subscription in which you sign up and have to unsubscribe when you don't want to use the product, when the subscription renews, it is understood that the service is provided again.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Precio Lista: Shows prices of all cards and profit for players in your property, so you can know market prices.",
+                "Descarga CSV (Club y Transferibles): Download a CSV (open in Excel) with all data from your club players and transferables list, for better inventory control.",
+                "Compra automática: Activate automatic purchase and you won't have to confirm when buying. The fastest for sniping. By activating this option, we won't have to press the confirm key after clicking 'Buy now', saving valuable seconds when sniping.",
+                "Reinicio de puja mínima: Reset minimum bid when it is equal to or higher than the buy now price. You won't have to reset the minimum bid.",
+                "NokaCopy (Copiador de SBCs): Activate NokaCopy on the add players to SBC page. This SBC-related function will save us a lot of time. With this option activated, new options will appear in the right column: Open in Futbin (direct link to FB with corresponding SBC solutions), a blank box (paste the link), Copy SBC (press button and players will appear in the template, including owned cards or conceptual cards to buy).",
+                "Modo Mobile (ANDROID): Activate Mobile mode to snipe on browsers that support Chrome Extensions. This allows sniping from your smartphone.",
+                "Desactivar Precios en versiones: If deactivated, you won't see card prices in different versions. With it active, you can click on the price to quickly set the buy now price and search saving time.",
+                "Snipear con Limbo o NokaLimbo: You can bid and snipe with the list full of unassigned.",
+                "Guardar filtros: You can save your sniping or bidding filters to access them quickly.",
+                "Listar cartas: Quickly list cards with a command at minimum price or the price you want to set by default."
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "NOKA FUT FC 25",
+      "domain": "http://www.nokafut.com/",
+      "source_url": "https://www.nokafut.com/ea/premium/",
+      "success": true,
+      "content_length": 3729
+    },
+    "YouTube Multi-Language Realtime Audio": {
+      "name": "YouTube Multi-Language Realtime Audio",
+      "domain": "https://mycustomai.io",
+      "error": "All URLs failed to yield valid pricing data",
+      "attempted_urls": [
+        "https://mycustomai.io/services",
+        "https://www.mycustomai.io/services",
+        "https://mycustomai.io/",
+        "https://www.mycustomai.io",
+        "https://mycustomai.io/ai-business-use-case-feasibility",
+        "https://www.mycustomai.io/ai-business-use-case-feasibility",
+        "https://mycustomai.io/schedule-discovery-call",
+        "https://www.mycustomai.io/schedule-discovery-call"
+      ],
+      "success": false
+    },
+    "ChronoSave": {
+      "name": "ChronoSave",
+      "domain": "https://www.chronosave.com/",
+      "error": "No pricing pages found",
+      "success": false
+    },
+    "CG Download Master - ChatGPT download tool": {
+      "currency": "cny",
+      "plans": [
+        {
+          "name": "Free",
+          "description": "Free version with limited daily usage time of 5-30 minutes per product rule, no credit card required, unlimited usage attempts.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "daily",
+              "price": 0.0,
+              "currency": "cny",
+              "features": [
+                "Simple one-click connection",
+                "Access to selected nodes",
+                "Limited to 5-30 minutes per day",
+                "No traffic or concurrency limits specified beyond time",
+                "Automatic IP change in different networks"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro",
+          "description": "Pro version for research, foreign trade, cross-border e-commerce, sea shopping, and developers with advanced features.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 14.8,
+              "currency": "cny",
+              "features": [
+                "Global 12+ data centers",
+                "Over 30 available nodes",
+                "Global backbone G-level bandwidth access",
+                "Unlimited traffic",
+                "No limit on connections/second",
+                "500 concurrent requests/second",
+                "Multi-device support per IPv4 address",
+                "Support for multiple devices logged in simultaneously",
+                "Priority customer service support",
+                "Region selection: North America, Europe, Asia",
+                "High-speed backbone for HD/1080P video",
+                "Acceleration for 10+ scenarios",
+                "One-click enable connection",
+                "Up to 3 devices per account"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 138.6,
+              "currency": "cny",
+              "features": [
+                "Global 12+ data centers",
+                "Over 30 available nodes",
+                "Global backbone G-level bandwidth access",
+                "Unlimited traffic",
+                "No limit on connections/second",
+                "500 concurrent requests/second",
+                "Multi-device support per IPv4 address",
+                "Support for multiple devices logged in simultaneously",
+                "Priority customer service support",
+                "Region selection: North America, Europe, Asia",
+                "High-speed backbone for HD/1080P video",
+                "Acceleration for 10+ scenarios",
+                "One-click enable connection",
+                "Up to 3 devices per account",
+                "Saves 32% compared to monthly"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "CG Download Master - ChatGPT download tool",
+      "domain": "https://letsmain.com",
+      "source_url": "https://letsmain.com",
+      "success": true,
+      "content_length": 2067
+    },
+    "Echoes-ChatGPT, Claude & Gemini Tool for Search, Label, Export & Summarize": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "FREE",
+          "description": "Ideal for casual users who need basic functionality without any cost.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Advanced Search: Fuzzy matching, logical operators, and typo correction.",
+                "Edit/Delete Conversations: Full control to modify or remove your chats.",
+                "Label Management: Organize up to 5 labels for easy categorization.",
+                "Timestamps: Easily view when interactions occurred.",
+                "Account Limitation: Limited to one account (ChatGPT Personal or Team workspaces, Claude AI or Gemini)."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Echoes Plus",
+          "description": "Designed for users who need more advanced features and greater control over their conversations.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 8.99,
+              "currency": "usd",
+              "features": [
+                "All FREE features",
+                "Unlimited Labels: Organize conversations with hierarchical labels synced across devices.",
+                "Favorites Management: Quickly access and manage favorite conversations.",
+                "Time-Based Filters: Efficiently search conversations by specific time frames.",
+                "Sorting Options: Arrange conversations by Most Relevant, Alphabetical, Date Created, or Last Updated.",
+                "Conversation Export/Import: Export conversations in formats like HTML, Markdown and JSON.",
+                "Conversation Summaries: Get quick summaries of your conversations with custom prompts.",
+                "Cross-LLM Management: Add and manage unlimited accounts from ChatGPT personal, ChatGPT team workspaces, Claude AI and Gemini.",
+                "Synchronize: All your favorite conversations, labels and settings will be synced across computers."
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 89.99,
+              "currency": "usd",
+              "features": [
+                "All FREE features",
+                "Unlimited Labels: Organize conversations with hierarchical labels synced across devices.",
+                "Favorites Management: Quickly access and manage favorite conversations.",
+                "Time-Based Filters: Efficiently search conversations by specific time frames.",
+                "Sorting Options: Arrange conversations by Most Relevant, Alphabetical, Date Created, or Last Updated.",
+                "Conversation Export/Import: Export conversations in formats like HTML, Markdown and JSON.",
+                "Conversation Summaries: Get quick summaries of your conversations with custom prompts.",
+                "Cross-LLM Management: Add and manage unlimited accounts from ChatGPT personal, ChatGPT team workspaces, Claude AI and Gemini.",
+                "Synchronize: All your favorite conversations, labels and settings will be synced across computers."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Echoes Lifetime Access",
+          "description": "For users who want unlimited access to all features without recurring payments.",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 199.99,
+              "currency": "usd",
+              "features": [
+                "All Echoes Plus features",
+                "One-time payment: Pay once and enjoy lifetime access without any additional costs.",
+                "Exclusive Support: Receive exclusive 1:1 support for any issues or questions.",
+                "All current and future features from all membership tiers."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Founders",
+          "description": "The most special tier for our earliest supporters who believed in us and helped build the product to where it is today.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "All Features: Enjoy all previous and future features across all membership tiers without paying anything else.",
+                "Lifetime Access: Access all features forever with no additional costs.",
+                "Exclusive Recognition: Be recognized as a key supporter who contributed to the development and success of Echoes.",
+                "Special Privileges: Receive special privileges and early access to new features and updates."
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Echoes-ChatGPT, Claude & Gemini Tool for Search, Label, Export & Summarize",
+      "domain": "https://echoes.r2bits.com/",
+      "source_url": "https://echoes.r2bits.com/#pricing",
+      "success": true,
+      "content_length": 17845
+    },
+    "AMZImage - Amazon Image Downloader & Editor": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free",
+          "description": "Start for free; up to 3 times every 7 days",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Download images with variants (*.zip)",
+                "Export images with variants (Excel)",
+                "Download and export review images",
+                "Powerfull images editing support",
+                "One-click download all images (*.zip)",
+                "One-click export all images (Excel)",
+                "One-click export all videos (*.zip)",
+                "One-click download video"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro",
+          "description": "Suitable for trying out",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 9.0,
+              "currency": "usd",
+              "features": [
+                "Download images with variants (*.zip)",
+                "Export images with variants (Excel)",
+                "Download and export review images",
+                "Powerfull images editing support",
+                "One-click download all images (*.zip)",
+                "One-click export all images (Excel)",
+                "One-click export all videos (*.zip)",
+                "One-click download video"
+              ]
+            },
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 72.0,
+              "currency": "usd",
+              "features": [
+                "Download images with variants (*.zip)",
+                "Export images with variants (Excel)",
+                "Download and export review images",
+                "Powerfull images editing support",
+                "One-click download all images (*.zip)",
+                "One-click export all images (Excel)",
+                "One-click export all videos (*.zip)",
+                "One-click download video"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "AMZImage - Amazon Image Downloader & Editor",
+      "domain": "https://amzimage.imgkit.app",
+      "source_url": "https://amzimage.imgkit.app/#pricing",
+      "success": true,
+      "content_length": 5528
+    },
+    "Hero Wars Simulator HWA": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Basic Plan",
+          "description": "Basic account with free weekly credits and various simulation features, some requiring additional credits.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Basic account information (e.g. emeralds needed of guaranteed totem)",
+                "Automatically collect community gifts",
+                "No reload of Hero Wars needed.",
+                "Journal of battles for (configurable) days",
+                "Overview of own and other players heroes",
+                "500 free weekly credits for battle calculations Unspent free credits are not carried over to next week.",
+                "Calculate battle results with last known hero strength. Requires credits",
+                "Simulate 100 battles with last known hero strength to get probability to win. Requires credits",
+                "Damage calculation for Osh/Asgard battles Requires credits",
+                "Calculations/Simulation for previously lost battles in guild war and Clash of the Worlds Requires credits",
+                "Calculations/Simulation for buffed battles in Clash of the Worlds Requires credits",
+                "Guild war planning support",
+                "CoW planning support",
+                "Invasion Boss optimized auto retries",
+                "Faster Asgard battle optimization by scaling calculations to multiple game instances",
+                "Online sharing of battle journal (e.g. see last known hidden GA teams, better results of calculation)",
+                "Highest simulation priority. Simulations run before basic and free accounts",
+                "Faster simulation calculation. Battles of simulations run in parallel on several servers",
+                "Auto Raid ToE attacks Raid ToE attacks and auto retry failed ones until everything is killed including bosses."
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Hero Wars Simulator HWA",
+      "domain": "https://hw-simulator.com",
+      "source_url": "https://hw-simulator.com",
+      "success": true,
+      "content_length": 1379
+    },
+    "NixZap": {
+      "currency": "BRL",
+      "plans": [
+        {
+          "name": "Plano Básico",
+          "description": "Plano básico com atendimentos e envios ilimitados, envio de áudios pré-gravados, mensagens de texto prontas, imagens, vídeos, arquivos, respostas automáticas com gatilhos, sequências, temporizador, importação de dados, vídeos tutoriais, atualizações automáticas, backup na nuvem, suporte por WhatsApp e garantia de 7 dias.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 47.0,
+              "currency": "BRL",
+              "features": [
+                "Atendimentos e envios ilimitados",
+                "Envio de áudios pré-gravados",
+                "Envio de mensagens de texto prontas",
+                "Envio de imagens e vídeos",
+                "Envio de arquivos",
+                "Respostas automáticas com gatilhos",
+                "Envio de sequências (scripts)",
+                "Temporizador para sequências",
+                "Importe dados de outras ferramentas",
+                "Vídeos mostrando como usar a NixZap",
+                "Atualizações automáticas",
+                "Backup automático na nuvem",
+                "Suporte por WhatsApp",
+                "Garantia de 7 dias"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Plano Avançado",
+          "description": "Plano avançado com todos os recursos do Plano Básico, além de respostas automáticas com IA, disparo de mensagens em massa, Mini-CRM, extrator de contatos de grupos e do WhatsApp, e garantia de 7 dias.",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 67.0,
+              "currency": "BRL",
+              "features": [
+                "Todos os recursos do Plano Básico",
+                "Respostas automáticas com IA",
+                "Disparo de mensagens em massa",
+                "Mini-CRM / Gerenciador de contatos",
+                "Extrator de contatos de grupos",
+                "Extrator de contatos do WhatsApp",
+                "Garantia de 7 dias"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "NixZap",
+      "domain": "https://nixzap.com.br",
+      "source_url": "https://nixzap.com.br/",
+      "success": true,
+      "content_length": 6695
+    },
+    "Formilot": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free Plan",
+          "description": "1 form fill per day, 1 preset information, Use basic model",
+          "pricing_tiers": [
+            {
+              "type": "one_time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "1 form fill per day",
+                "1 preset information",
+                "Use basic model"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro Plan (Annual)",
+          "description": "Unlimited form fills, Unlimited preset information, Use advanced model",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 24.0,
+              "currency": "usd",
+              "features": [
+                "Unlimited form fills",
+                "Unlimited preset information",
+                "Use advanced model"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro Plan (Monthly)",
+          "description": "Unlimited form fills, Unlimited preset information, Use advanced model",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 3.0,
+              "currency": "usd",
+              "features": [
+                "Unlimited form fills",
+                "Unlimited preset information",
+                "Use advanced model"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Formilot",
+      "domain": "https://formilot.com",
+      "source_url": "https://formilot.com/",
+      "success": true,
+      "content_length": 886
+    },
+    "AI Smart Island": {
+      "name": "AI Smart Island",
+      "domain": "https://chat.lify.vip",
+      "error": "All URLs failed to yield valid pricing data",
+      "attempted_urls": [
+        "https://chat.lify.vip"
+      ],
+      "success": false
+    },
+    "License Buddy Pro": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free",
+          "description": "Basic extension for managing and auto-filling license keys, including bulk import, manual addition, encrypted local storage, and autofill on license pages.",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Add and manage license keys",
+                "Auto-fill license keys on web pages",
+                "Bulk import from CSV",
+                "Manual addition of keys",
+                "Encrypted storage in local browser",
+                "No data access by provider",
+                "Basic selector and URL pattern matching"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pro",
+          "description": "Advanced extension with additional features for lifetime updates, available as a limited-time one-time purchase.",
+          "pricing_tiers": [
+            {
+              "type": "one-time",
+              "usage_type": "licensed",
+              "billing_period": "one-time",
+              "price": 39.99,
+              "currency": "usd",
+              "features": [
+                "All Free features",
+                "Instant Fill (automatic filling on page load)",
+                "Google Sheets integration",
+                "Advanced Selector Grabber",
+                "Customizable extension popup width",
+                "Sync keys across devices via Google account",
+                "Lifetime updates",
+                "Unlimited devices and browsers"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "License Buddy Pro",
+      "domain": "https://licensebuddy.io",
+      "source_url": "https://licensebuddy.io",
+      "success": true,
+      "content_length": 9706
+    },
+    "TagBoost - Listing Text Optimizer": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free Starter Plan",
+          "description": "The Free Starter Plan includes 10 Generations and 30 Re-generations, valid for 1 month.",
+          "pricing_tiers": [
+            {
+              "type": "one_time",
+              "usage_type": "licensed",
+              "billing_period": null,
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "10 Generations",
+                "30 Re-generations",
+                "Valid for 1 month"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "TagBoost - Listing Text Optimizer",
+      "domain": "https://tagboost.app",
+      "source_url": "https://chromewebstore.google.com/detail/efmhmoaielcffjkdknilhdkbckhfjkec",
+      "success": true,
+      "content_length": 6154
+    },
+    "Generative Ai Anywhere": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free",
+          "description": "Free tier with basic features",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Public prompt",
+                "Private shared prompt",
+                "Direct prompt input",
+                "Input text",
+                "Add selected text",
+                "Add title + url",
+                "Add title + url + text",
+                "Add title + url + source",
+                "Add title + url + movie script",
+                "Generative Ai",
+                "Tool",
+                "Bookmark",
+                "Memo"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Free (with login)",
+          "description": "Free tier with login for personal management",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Public prompt",
+                "Personal prompt management up to 1",
+                "Public bookmark",
+                "Personal bookmark management up to 1"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Basic subscription",
+          "description": "Basic subscription billed annually",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 1.0,
+              "currency": "usd",
+              "features": [
+                "Personal prompt management up to 10",
+                "Personal bookmark management up to 10"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Premium subscription",
+          "description": "Premium subscription billed annually",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 2.0,
+              "currency": "usd",
+              "features": [
+                "Personal prompt management up to 25",
+                "Personal bookmark management up to 25"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Vip subscription",
+          "description": "VIP subscription billed annually",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 3.0,
+              "currency": "usd",
+              "features": [
+                "Personal prompt management up to 40",
+                "Personal bookmark management up to 40"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Generative Ai Anywhere",
+      "domain": "https://www.genaianywhere.com/",
+      "source_url": "https://www.genaianywhere.com/price.html",
+      "success": true,
+      "content_length": 785
+    },
+    "IL ChatGPT & LLM Prompt Saver": {
+      "currency": "usd",
+      "plans": [
+        {
+          "name": "Free Plan",
+          "description": "Perfect for getting started",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 0.0,
+              "currency": "usd",
+              "features": [
+                "Up to 30 saved prompts",
+                "Basic prompt management",
+                "Chrome extension access",
+                "ChatGPT integration",
+                "Premium prompt library",
+                "Advanced sync features",
+                "Priority support"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Premium Monthly",
+          "description": "Full access to all features",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "monthly",
+              "price": 9.0,
+              "currency": "usd",
+              "features": [
+                "Unlimited saved prompts",
+                "Premium prompt library",
+                "Advanced sync features",
+                "AI prompt enhancement",
+                "Multi-platform support",
+                "Priority support",
+                "Export/Import features"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Premium Yearly",
+          "description": "Save 17% with annual billing Save $18/year",
+          "pricing_tiers": [
+            {
+              "type": "recurring",
+              "usage_type": "licensed",
+              "billing_period": "yearly",
+              "price": 90.0,
+              "currency": "usd",
+              "features": [
+                "Unlimited saved prompts",
+                "Premium prompt library",
+                "Advanced sync features",
+                "AI prompt enhancement",
+                "Multi-platform support",
+                "Priority support",
+                "Export/Import features"
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "IL ChatGPT & LLM Prompt Saver",
+      "domain": "https://intellectualead.com",
+      "source_url": "https://intellectualead.com/pricing/",
+      "success": true,
+      "content_length": 2392
+    },
+    "KredKonnect-Shoonya": {
+      "name": "KredKonnect-Shoonya",
+      "domain": "https://shubhyadav.tech",
+      "error": "No pricing pages found",
+      "success": false
+    }
+  },
+  "processed_count": 84,
+  "total_count": 240,
+  "timestamp": 1758937873.2878416
+}

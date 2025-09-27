@@ -81,25 +81,45 @@ class PricingExtractor:
                 ignore_https_errors=True
             )
     
+    def sync_playwright_cookies_to_requests(self):
+        """Copy cookies from Playwright browser context to requests session."""
+        if not self.context:
+            return
+    
+        try:
+            cookies = self.context.cookies()
+            jar = requests.cookies.RequestsCookieJar()
+            for cookie in cookies:
+                jar.set(
+                    cookie["name"],
+                    cookie["value"],
+                    domain=cookie.get("domain"),
+                    path=cookie.get("path", "/"),
+                )
+            self.session.cookies = jar
+            print(f"🍪 Synced {len(cookies)} cookies from Playwright to requests session")
+        except Exception as e:
+            print(f"⚠️ Failed to sync cookies: {e}")
     def extract_pricing_content(self, url: str) -> str:
-        """Extract content using Playwright for dynamic sites, fallback to requests for static"""
         print(f"📄 Extracting content from: {url}")
-        
+    
         # First try with Playwright (handles dynamic content)
         playwright_content = self._extract_with_playwright(url)
         if playwright_content and len(playwright_content) > 100:
             print(f"✅ Playwright extracted {len(playwright_content)} characters")
             return playwright_content
-        
+    
+        # 🆕 Sync cookies before switching to requests
+        self.sync_playwright_cookies_to_requests()
+    
         # Fallback to requests for static content
         print("🔄 Playwright failed or insufficient content, trying requests...")
         requests_content = self._extract_with_requests(url)
         if requests_content and len(requests_content) > 100:
             print(f"✅ Requests extracted {len(requests_content)} characters")
             return requests_content
-        
-        return "Error: Could not extract content with either method"
     
+        return "Error: Could not extract content with either method"
     def _extract_with_playwright(self, url: str) -> str:
         """Extract content using Playwright to handle JavaScript-rendered pages"""
         try:
@@ -116,8 +136,8 @@ class PricingExtractor:
             
             page.route('**/*', route_handler)
             
-            # Navigate to page with longer timeout for dynamic content
-            page.goto(url, wait_until='networkidle', timeout=60000)  # Increased to 60s
+            # Navigate to page with shorter timeout for faster processing
+            page.goto(url, wait_until='networkidle', timeout=60000)  # 1 minute timeout
             
             # Wait for potential dynamic content to load
             page.wait_for_timeout(3000)
@@ -220,7 +240,7 @@ class PricingExtractor:
             self.init_playwright()
             
             page = self.context.new_page()
-            page.goto(domain, wait_until='networkidle', timeout=30000)
+            page.goto(domain, wait_until='networkidle', timeout=60000)
             
             # Wait for dynamic content to load
             page.wait_for_timeout(2000)
@@ -288,7 +308,7 @@ class PricingExtractor:
         try:
             self.init_playwright()
             page = self.context.new_page()
-            response = page.goto(url, wait_until='domcontentloaded', timeout=15000)
+            response = page.goto(url, wait_until='domcontentloaded', timeout=60000)
             page.close()
             if response and response.status and response.status < 400:
                 return True
@@ -850,12 +870,11 @@ class PricingExtractor:
         
         print(f"✅ Found {len(pricing_urls)} potential pricing URLs")
         
-        # Limit the number of URLs to try (safety measure)
-        # max_urls_to_try = 3  # Reduced from 5 to 3 for faster processing
-        # if len(pricing_urls) > max_urls_to_try:
-        #     print(f"⚠️ Too many URLs ({len(pricing_urls)}), limiting to first {max_urls_to_try}")
-        #     pricing_urls = pricing_urls[:max_urls_to_try]
-        
+         # Limit the number of URLs to try (safety measure)
+        max_urls_to_try = 8
+        if len(pricing_urls) > max_urls_to_try:
+            print(f"⚠️ Too many URLs ({len(pricing_urls)}), limiting to first {max_urls_to_try}")
+            pricing_urls = pricing_urls[:max_urls_to_try]
         for i, pricing_url in enumerate(pricing_urls):
             print(f"\n--- Attempt {i+1}/{len(pricing_urls)} ---")
             print(f"🔗 Testing: {pricing_url}")
@@ -975,8 +994,8 @@ def get_remaining_urls(all_urls: List[Dict], existing_results: Dict) -> List[Dic
 
 def main():
     # Configuration
-    csv_file_path = "urls with titles.csv"
-    output_file = 'pricing_results_with_resume.json'
+    csv_file_path = "urls_with_titles_1.csv"
+    output_file = 'pricing_results_with_resume_1.json'
     XAI_API_KEY = os.getenv("OPENROUTER_API_KEY")
     YOUR_SITE_URL = os.getenv("YOUR_SITE_URL")
     YOUR_SITE_NAME = os.getenv("YOUR_SITE_NAME")
