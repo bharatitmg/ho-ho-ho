@@ -10,6 +10,7 @@ import time
 import random
 import os
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
+from concurrent.futures import ThreadPoolExecutor, TimeoutError as FutureTimeoutError
 
 class PricingExtractor:
     def __init__(self, xai_api_key: str = None, your_site_url: str = "https://example.com", your_site_name: str = "PricingExtractor"):
@@ -136,8 +137,8 @@ class PricingExtractor:
             
             page.route('**/*', route_handler)
             
-            # Navigate to page with shorter timeout for faster processing
-            page.goto(url, wait_until='networkidle', timeout=60000)  # 1 minute timeout
+            # Navigate to page with longer timeout for dynamic content
+            page.goto(url, wait_until='networkidle', timeout=60000)  # Increased to 60s
             
             # Wait for potential dynamic content to load
             page.wait_for_timeout(3000)
@@ -240,7 +241,7 @@ class PricingExtractor:
             self.init_playwright()
             
             page = self.context.new_page()
-            page.goto(domain, wait_until='networkidle', timeout=60000)
+            page.goto(domain, wait_until='networkidle', timeout=30000)
             
             # Wait for dynamic content to load
             page.wait_for_timeout(2000)
@@ -308,7 +309,7 @@ class PricingExtractor:
         try:
             self.init_playwright()
             page = self.context.new_page()
-            response = page.goto(url, wait_until='domcontentloaded', timeout=60000)
+            response = page.goto(url, wait_until='domcontentloaded', timeout=15000)
             page.close()
             if response and response.status and response.status < 400:
                 return True
@@ -321,7 +322,7 @@ class PricingExtractor:
             return response.status_code < 400
         except Exception:
             return False
-            # Keep all your existing methods below (they remain the same)
+
     def find_pricing_routes(self, domain: str) -> List[str]:
         """Use AI to intelligently find pricing pages from a domain"""
         print(f"🔍 Using AI to find pricing routes for: {domain}")
@@ -330,15 +331,11 @@ class PricingExtractor:
         all_links = self._get_all_website_links(domain)
         print(f"Found {len(all_links)} total links on the website")
         
-        # Step 2: Get sitemap links if available
-        sitemap_links = self._get_all_sitemap_links(domain)
-        print(f"Found {len(sitemap_links)} links from sitemaps")
-        
-        # Step 3: Always include the homepage for direct pricing analysis
+        # Step 2: Always include the homepage for direct pricing analysis
         homepage_links = [domain]
         
         # Combine all links
-        all_possible_links = list(set(all_links + sitemap_links + homepage_links))
+        all_possible_links = list(set(all_links + homepage_links))
         print(f"Total unique links to analyze: {len(all_possible_links)}")
         
         if not all_possible_links:
@@ -346,7 +343,7 @@ class PricingExtractor:
             print("No links found, will try homepage analysis only")
             return [domain]
         
-        # Step 4: Use AI to identify which links are likely pricing pages
+        # Step 3: Use AI to identify which links are likely pricing pages
         pricing_urls = self._ai_identify_pricing_links(domain, all_possible_links)
         
         return pricing_urls
@@ -411,233 +408,6 @@ class PricingExtractor:
                 continue
         
         return list(links)
-    
-    def _get_all_sitemap_links(self, domain: str) -> List[str]:
-        """Extract all links from sitemap(s) with better error handling and loop protection"""
-        all_sitemap_links = set()
-        processed_sitemaps = set()
-        
-        try:
-            # Find sitemap locations
-            sitemap_urls = self._discover_sitemap_urls(domain)
-            print(f"Discovered {len(sitemap_urls)} potential sitemap locations")
-            
-            # Process each sitemap URL with protection against infinite loops
-            sitemap_queue = list(sitemap_urls)
-            max_iterations = 50  # Safety limit to prevent infinite loops
-            iterations = 0
-            
-            while sitemap_queue and iterations < max_iterations:
-                iterations += 1
-                sitemap_url = sitemap_queue.pop(0)
-                
-                if sitemap_url in processed_sitemaps:
-                    continue
-                    
-                if not self._check_url_exists(sitemap_url):
-                    continue
-                    
-                print(f"🔍 Processing sitemap: {sitemap_url}")
-                processed_sitemaps.add(sitemap_url)
-                
-                # Extract links from this sitemap
-                links = self._extract_links_from_sitemap(sitemap_url)
-                all_sitemap_links.update(links)
-                print(f"Found {len(links)} links in {sitemap_url}")
-                
-                # If it's a sitemap index, process nested sitemaps
-                if self._is_sitemap_index(sitemap_url):
-                    print("📂 This is a sitemap index, processing nested sitemaps...")
-                    nested_sitemaps = self._extract_nested_sitemaps(sitemap_url)
-                    
-                    # Add new sitemaps to queue for processing
-                    for nested_sitemap in nested_sitemaps:
-                        if (nested_sitemap not in processed_sitemaps and 
-                            nested_sitemap not in sitemap_queue):
-                            sitemap_queue.append(nested_sitemap)
-            
-            if iterations >= max_iterations:
-                print("⚠️ Reached maximum sitemap processing iterations (safety limit)")
-            
-        except Exception as e:
-            print(f"❌ Error processing sitemaps: {e}")
-        
-        return list(all_sitemap_links)
-    
-    def _discover_sitemap_urls(self, domain: str) -> List[str]:
-        """Discover all possible sitemap URLs"""
-        sitemap_urls = []
-        
-        # Common sitemap locations
-        common_locations = [
-            'sitemap.xml', 'sitemap_index.xml', 'sitemap/sitemap.xml',
-            'sitemap.xml.gz', 'sitemap/sitemap_index.xml',
-            'wp-sitemap.xml', 'sitemap-index.xml'
-        ]
-        
-        for location in common_locations:
-            url = urljoin(domain, location)
-            sitemap_urls.append(url)
-        
-        # Check robots.txt
-        robots_url = urljoin(domain, 'robots.txt')
-        try:
-            response = self.session.get(robots_url, timeout=5)
-            if response.status_code == 200:
-                for line in response.text.split('\n'):
-                    line = line.strip()
-                    if line.lower().startswith('sitemap:'):
-                        sitemap_url = line.split(':', 1)[1].strip()
-                        sitemap_urls.append(sitemap_url)
-                        print(f"Found sitemap in robots.txt: {sitemap_url}")
-        except:
-            pass
-        
-        return sitemap_urls
-    
-    def _extract_links_from_sitemap(self, sitemap_url: str) -> List[str]:
-        """Extract all links from a sitemap"""
-        links = set()
-        
-        try:
-            response = self.session.get(sitemap_url, timeout=10)
-            
-            # Handle different sitemap formats
-            if 'xml' in sitemap_url:
-                soup = BeautifulSoup(response.content, 'xml')
-                
-                # Extract URLs from sitemap
-                for loc in soup.find_all('loc'):
-                    url = loc.text.strip()
-                    if url and self._is_valid_url(url):
-                        links.add(url)
-                
-                # Also check url tags
-                for url_tag in soup.find_all('url'):
-                    loc = url_tag.find('loc')
-                    if loc and loc.text:
-                        url = loc.text.strip()
-                        if self._is_valid_url(url):
-                            links.add(url)
-            else:
-                # Handle text sitemaps or other formats
-                print(f"⚠️ Non-XML sitemap format: {sitemap_url}")
-                        
-        except Exception as e:
-            print(f"❌ Error extracting links from sitemap {sitemap_url}: {e}")
-        
-        return list(links)
-    
-    
-    def _is_sitemap_index(self, sitemap_url: str) -> bool:
-        """Check if sitemap is an index file with better detection"""
-        try:
-            # First check URL pattern for common index indicators
-            if any(pattern in sitemap_url.lower() for pattern in [
-                'sitemap_index', 'sitemap-index', 'sitemap.index', 
-                'index.xml', 'sitemap.xml/index'
-            ]):
-                return True
-            
-            # Then check content
-            response = self.session.head(sitemap_url, timeout=5)
-            if response.status_code != 200:
-                return False
-                
-            # For large files, check content-type first
-            content_type = response.headers.get('content-type', '').lower()
-            if 'xml' not in content_type:
-                return False
-            
-            # Only download and check content if necessary
-            response = self.session.get(sitemap_url, timeout=5)
-            content = response.content.lower()
-            
-            # Check for sitemap index indicators
-            index_indicators = [
-                b'sitemapindex',
-                b'sitemap_index', 
-                b'<sitemapindex',
-                b'<sitemapindex>',
-                b'sitemap-type="index"'
-            ]
-            
-            return any(indicator in content for indicator in index_indicators)
-            
-        except Exception as e:
-            print(f"⚠️ Error checking if sitemap is index: {e}")
-            return False
-    
-    def _extract_nested_sitemaps(self, sitemap_index_url: str, processed_urls: set = None, depth: int = 0) -> List[str]:
-        """Extract nested sitemap URLs from index with protection against infinite loops"""
-        if processed_urls is None:
-            processed_urls = set()
-        
-        # Prevent infinite recursion
-        if depth > 10:  # Maximum depth limit
-            print(f"⚠️ Maximum sitemap depth reached ({depth}), stopping recursion")
-            return []
-        
-        if sitemap_index_url in processed_urls:
-            print(f"⚠️ Already processed sitemap: {sitemap_index_url}")
-            return []
-        
-        processed_urls.add(sitemap_index_url)
-        nested_sitemaps = []
-        
-        try:
-            response = self.session.get(sitemap_index_url, timeout=10)
-            soup = BeautifulSoup(response.content, 'xml')
-            
-            # Track found URLs to avoid duplicates
-            found_urls = set()
-            
-            # Look for sitemap tags in sitemap index
-            sitemap_tags = soup.find_all('sitemap')
-            for sitemap_tag in sitemap_tags:
-                loc = sitemap_tag.find('loc')
-                if loc and loc.text:
-                    url = loc.text.strip()
-                    if url not in found_urls:
-                        found_urls.add(url)
-                        nested_sitemaps.append(url)
-            
-            # Also try alternative format
-            if not sitemap_tags:
-                loc_tags = soup.find_all('loc')
-                for loc_tag in loc_tags:
-                    url = loc_tag.text.strip()
-                    if (url != sitemap_index_url and 
-                        url not in found_urls and 
-                        ('sitemap' in url.lower() or '.xml' in url)):
-                        found_urls.add(url)
-                        nested_sitemaps.append(url)
-            
-            print(f"📂 Found {len(nested_sitemaps)} nested sitemaps at depth {depth}")
-            
-            # Recursively process nested sitemaps that are also indexes
-            additional_sitemaps = []
-            for nested_sitemap in nested_sitemaps[:]:  # Copy list to avoid modification during iteration
-                if nested_sitemap not in processed_urls:
-                    try:
-                        # Check if this nested sitemap is also an index
-                        if self._is_sitemap_index(nested_sitemap):
-                            print(f"🔍 Nested sitemap is also an index, processing recursively...")
-                            deeper_sitemaps = self._extract_nested_sitemaps(
-                                nested_sitemap, processed_urls, depth + 1
-                            )
-                            additional_sitemaps.extend(deeper_sitemaps)
-                    except Exception as e:
-                        print(f"⚠️ Error checking nested sitemap {nested_sitemap}: {e}")
-                        continue
-            
-            # Add the additional sitemaps found through recursion
-            nested_sitemaps.extend(additional_sitemaps)
-            
-        except Exception as e:
-            print(f"❌ Error extracting nested sitemaps from {sitemap_index_url}: {e}")
-        
-        return list(set(nested_sitemaps))  # Remove duplicates
     
     def _ai_identify_pricing_links(self, domain: str, all_links: List[str]) -> List[str]:
         """Use AI to identify which links are likely pricing pages"""
@@ -994,8 +764,8 @@ def get_remaining_urls(all_urls: List[Dict], existing_results: Dict) -> List[Dic
 
 def main():
     # Configuration
-    csv_file_path = "urls_with_titles_1.csv"
-    output_file = 'pricing_results_with_resume_1.json'
+    csv_file_path = "urls_with_titles_2.csv"
+    output_file = 'pricing_results_with_resume_2.json'
     XAI_API_KEY = os.getenv("OPENROUTER_API_KEY")
     YOUR_SITE_URL = os.getenv("YOUR_SITE_URL")
     YOUR_SITE_NAME = os.getenv("YOUR_SITE_NAME")
@@ -1058,20 +828,21 @@ def main():
                 if not website.startswith(('http://', 'https://')):
                     website = 'https://' + website
                 
-                # Add timeout for individual website processing (10 minutes max per site)
-                import signal
+                # Cross-platform timeout implementation
+                import threading
+                from concurrent.futures import ThreadPoolExecutor, TimeoutError as FutureTimeoutError
                 
-                def timeout_handler(signum, frame):
-                    raise TimeoutError("Website processing timed out after 10 minutes")
-                
-                signal.signal(signal.SIGALRM, timeout_handler)
-                signal.alarm(600)  # 10 minutes timeout per website
+                def process_website():
+                    return extractor.get_pricing_data(website, name)
                 
                 try:
-                    pricing_data = extractor.get_pricing_data(website, name)
+                    # Use ThreadPoolExecutor for cross-platform timeout (10 minutes max per site)
+                    with ThreadPoolExecutor(max_workers=1) as executor:
+                        future = executor.submit(process_website)
+                        pricing_data = future.result(timeout=600)  # 10 minutes timeout
                     results[name] = pricing_data
-                finally:
-                    signal.alarm(0)  # Cancel the alarm
+                except FutureTimeoutError:
+                    raise TimeoutError("Website processing timed out after 10 minutes")
                 
                 if pricing_data.get('success'):
                     successful_count += 1
@@ -1168,9 +939,10 @@ if __name__ == "__main__":
         print("Run again to resume from where it stopped.")
         sys.exit(1)
     
-    # Handle various termination signals
+    # Handle various termination signals (cross-platform)
     signal.signal(signal.SIGINT, signal_handler)
-    signal.signal(signal.SIGTERM, signal_handler)
+    if hasattr(signal, 'SIGTERM'):  # SIGTERM might not be available on Windows
+        signal.signal(signal.SIGTERM, signal_handler)
     
     try:
         results = main()
