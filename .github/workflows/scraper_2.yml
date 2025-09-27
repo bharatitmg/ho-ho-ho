@@ -1,0 +1,104 @@
+name: Data Scraping Automation (Quick Test) 2
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  scrape-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300  # ⏱️ Total job limited to 120 minutes
+
+    env:
+      TERM: xterm
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install playwright
+        playwright install --with-deps
+    
+    - name: Verify input files
+      run: |
+        if [ ! -f "urls_with_titles_2.csv" ]; then
+          echo "Error: urls_with_titles_2.csv not found"
+          exit 1
+        fi
+        echo "Input file found, starting scraper..."
+    
+    - name: Run scraper 
+      timeout-minutes: 295  # ⏱️ Only 115 minutes for scraper step
+      continue-on-error: true
+      env:
+        OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        YOUR_SITE_URL: ${{ secrets.YOUR_SITE_URL }}
+        YOUR_SITE_NAME: ${{ secrets.YOUR_SITE_NAME }}
+        CI: true
+        GITHUB_ACTIONS: true
+      run: |
+        timeout 18000 python for_other_url.py || echo "⏳ Scraper timed out after 18000 seconds"
+
+    - name: List all files for debugging
+      if: always()
+      run: |
+        echo "=== LISTING ALL FILES ==="
+        ls -la || true
+    
+    - name: Upload intermediate results
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: intermediate-results-${{ github.run_number }}
+        path: |
+          pricing_results_with_resume_2.json
+          pricing_results_with_resume_2_checkpoint.json
+        if-no-files-found: warn
+    
+    - name: Check output files
+      if: always()
+      run: |
+        if [ -f "pricing_results_with_resume_2.json" ]; then
+          echo "✅ Main results file created"
+          wc -l "pricing_results_with_resume_2.json"
+        else
+          echo "❌ Main results file not found"
+        fi
+
+        if [ -f "pricing_results_with_resume_2_checkpoint.json" ]; then
+          echo "✅ Checkpoint file found"
+        else
+          echo "ℹ️ No checkpoint file (normal if completed)"
+        fi
+    
+    - name: Commit and push results
+      if: always()
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        # Ensure we are up to date before committing
+        git fetch origin main
+        git merge --strategy-option=theirs origin/main || true
+
+        git add -A
+        if ! git diff --cached --quiet; then
+          git commit -m "Update scraping results (partial) - $(date '+%Y-%m-%d %H:%M:%S UTC')"
+          git pull --rebase origin main || true
+          git push
+        else
+          echo "No changes to commit"
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
